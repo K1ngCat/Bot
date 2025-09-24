@@ -1,7 +1,7 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const { addMoney } = require('../economyStore');
 
-// Map of role IDs to rewards
+
 const roleRewards = {
     "1372308043454349403": { amount: 200, name: "WSP" },
     "1402987906477461585": { amount: 150, name: "DOT" },
@@ -15,13 +15,13 @@ const roleRewards = {
     "1373407655456014376": { amount: 150, name: "Staff Suport" },
     "1407030051249328250": { amount: 100, name: "Member" },
     "1409278757025611918": { amount: 120, name: "Gambling Mafia" },
-    // Add more roles here
+   
 };
 
-// Configurable cooldown in milliseconds (e.g., 6 hours = 21600000 ms)
+
 const COOLDOWN = 3 * 60 * 60 * 1000;
 
-// Store last collection timestamps
+
 let lastCollected = {};
 
 module.exports = {
@@ -32,7 +32,7 @@ module.exports = {
         const userId = interaction.user.id;
         const now = Date.now();
 
-        // Check cooldown
+        
         if (lastCollected[userId] && now - lastCollected[userId] < COOLDOWN) {
             const remaining = COOLDOWN - (now - lastCollected[userId]);
             const hours = Math.floor(remaining / 3600000);
@@ -64,7 +64,7 @@ module.exports = {
         }
 
         addMoney(userId, totalCollected);
-        lastCollected[userId] = now; // update cooldown timestamp
+        lastCollected[userId] = now; 
 
         const embed = new EmbedBuilder()
             .setTitle("💰 Role Rewards Collected")

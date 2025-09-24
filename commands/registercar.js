@@ -1,12 +1,12 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const { saveRegistrations } = require('../utils/registrationStorage');
-const ms = require('ms'); // falls noch nicht installiert: npm install ms
+const ms = require('ms'); 
 
 const VIP_ROLE_ID = '1409486868214452255';
 const BOOSTER_ROLE_ID = '1403091358419259433';
 const MAX_REGULAR = 5;
 const MAX_VIP = 12;
-const EXPIRY_MS = 1000 * 60 * 60 * 24 * 90; // 3 Monate in ms
+const EXPIRY_MS = 1000 * 60 * 60 * 24 * 90; 
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -49,7 +49,7 @@ module.exports = {
       });
     }
 
-    // 🔍 Count current user's registrations
+    
     const userRegistrations = [...interaction.client.registrations.values()].filter(reg => reg.userId === interaction.user.id);
     
     const member = await interaction.guild.members.fetch(interaction.user.id);
@@ -64,7 +64,7 @@ module.exports = {
       });
     }
 
-    // 📅 Calculate expiry timestamp
+    
     const now = Date.now();
     const expiresAt = now + EXPIRY_MS;
     const expiryDate = new Date(expiresAt);
@@ -80,7 +80,7 @@ module.exports = {
       year: interaction.options.getInteger('year'),
       userId: interaction.user.id,
       registeredAt: now,
-      expiresAt // speichern der Ablaufzeit
+      expiresAt 
     };
 
     interaction.client.registrations.set(plate, regData);
@@ -108,7 +108,7 @@ module.exports = {
       embeds: [embed]
     });
 
-    // ✅ DM user with countdown
+    
     try {
       await interaction.user.send({
         content: `✅ Your car has been successfully registered. It will expire <t:${Math.floor(expiresAt / 1000)}:R> (<t:${Math.floor(expiresAt / 1000)}:f>).`,
@@ -118,12 +118,12 @@ module.exports = {
       console.warn(`Could not DM user ${interaction.user.tag}`);
     }
 
-    // React to confirmation message
+    
     try {
       const msg = await interaction.fetchReply();
       if (msg && msg.react) await msg.react('✅');
     } catch {
-      // ignore react failures
+      
     }
   }
 };

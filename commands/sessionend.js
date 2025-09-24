@@ -19,19 +19,19 @@ module.exports = {
         }
         
         try {
-            // Delete all messages in the channel
+            
             const messages = await interaction.channel.messages.fetch({ limit: 100 });
             for (const [id, message] of messages) {
-                // Don't delete the command message itself until after replying
+                
                 if (id !== interaction.id) {
                     await message.delete().catch(console.error);
                 }
             }
             
-            // Delete session data
+            
             sessionManager.deleteSession(interaction.channelId);
             
-            // Send session end message
+           
             const embed = EmbedBuilderUtil.getSessionEndEmbed();
             await interaction.reply({ embeds: [embed] });
             

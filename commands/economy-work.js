@@ -11,10 +11,10 @@ const jobs = [
     "Mechanic 🔧"
 ];
 
-// Configurable cooldown (1 hour = 3600000 ms)
+
 const WORK_COOLDOWN = 60 * 60 * 1000;
 
-// Store last work timestamps in memory
+
 const lastWorked = new Map();
 
 module.exports = {
@@ -25,7 +25,7 @@ module.exports = {
         const userId = interaction.user.id;
         const now = Date.now();
 
-        // Check cooldown
+        
         if (lastWorked.has(userId)) {
             const expiration = lastWorked.get(userId) + WORK_COOLDOWN;
             if (now < expiration) {
@@ -42,16 +42,16 @@ module.exports = {
                         `Come back in **${hours}h ${minutes}m ${seconds}s**.`
                     );
 
-                return interaction.reply({ embeds: [embed], flags: 64 }); // ephemeral
+                return interaction.reply({ embeds: [embed], flags: 64 }); 
             }
         }
 
-        // Choose random job + earnings
+        
         const job = jobs[Math.floor(Math.random() * jobs.length)];
         const earnings = Math.floor(Math.random() * 300) + 100;
 
         addMoney(userId, earnings);
-        lastWorked.set(userId, now); // update cooldown
+        lastWorked.set(userId, now); 
 
         const embed = new EmbedBuilder()
             .setTitle("💼 Work Complete!")

@@ -6,7 +6,7 @@ const wantedFile = path.join(__dirname, '..', 'wantedData.json');
 
 function loadWantedData() {
     if (!fs.existsSync(wantedFile)) {
-        fs.writeFileSync(wantedFile, '{}'); // create empty file if missing
+        fs.writeFileSync(wantedFile, '{}'); 
         console.log('Created new wantedData.json file');
     }
     const data = fs.readFileSync(wantedFile, 'utf8');
@@ -19,7 +19,7 @@ function saveWantedData(data) {
         console.log('✅ Wanted data saved to:', wantedFile);
     } catch (err) {
         console.error('❌ Failed to save wanted data:', err);
-        throw err; // rethrow to handle in execute
+        throw err; 
     }
 }
 

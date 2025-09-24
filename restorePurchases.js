@@ -6,7 +6,7 @@ async function restorePurchases(client) {
     for (const userId in purchases) {
         for (const itemKey in purchases[userId]) {
             const purchase = purchases[userId][itemKey];
-            const guild = client.guilds.cache.first(); // adjust if multiple guilds
+            const guild = client.guilds.cache.first(); 
             if (!guild) continue;
 
             const member = await guild.members.fetch(userId).catch(() => null);
@@ -17,12 +17,12 @@ async function restorePurchases(client) {
             if (!role) continue;
 
             if (purchase.expiresAt && Date.now() >= purchase.expiresAt) {
-                // already expired
+                
                 await member.roles.remove(role).catch(() => {});
                 removePurchase(userId, itemKey);
                 member.send(`⏰ Your **${itemKey}** role expired while I was offline!`).catch(() => {});
             } else if (purchase.expiresAt) {
-                // still active → schedule removal
+                
                 const remaining = purchase.expiresAt - Date.now();
                 setTimeout(async () => {
                     await member.roles.remove(role).catch(() => {});

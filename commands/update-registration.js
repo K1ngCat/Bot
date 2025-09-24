@@ -91,9 +91,9 @@ module.exports = {
       }
 
       if (value !== null) {
-        // Always ensure we store only primitive values (string or number)
+        
         if (typeof value === 'object') {
-          // Defensive fallback in case something weird comes through
+          
           value = JSON.stringify(value);
         }
 

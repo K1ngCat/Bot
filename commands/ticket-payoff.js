@@ -5,7 +5,7 @@ const { getBalance, addMoney } = require('../economyStore');
 
 const ticketsFile = path.join(__dirname, '..', 'tickets.json');
 
-// Ticket role IDs
+
 const TICKET_ROLE_1 = '1402654203268038817';
 const TICKET_ROLE_2 = '1402654271480139876';
 const TICKET_ROLE_3 = '1402654308998054030';
@@ -59,14 +59,14 @@ module.exports = {
             return interaction.reply({ embeds: [embed], ephemeral: true });
         }
 
-        // Deduct money
+        
         addMoney(userId, -ticket.fine);
 
-        // Mark ticket as paid
+        
         ticket.paidOff = true;
         saveTickets(tickets);
 
-        // Remove the highest ticket role
+       
         if (member.roles.cache.has(TICKET_ROLE_3)) await member.roles.remove(TICKET_ROLE_3);
         else if (member.roles.cache.has(TICKET_ROLE_2)) await member.roles.remove(TICKET_ROLE_2);
         else if (member.roles.cache.has(TICKET_ROLE_1)) await member.roles.remove(TICKET_ROLE_1);

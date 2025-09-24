@@ -15,7 +15,7 @@ function save(data) {
 function addPurchase(userId, item, expiresAt) {
     const data = load();
     if (!data[userId]) data[userId] = {};
-    data[userId][item] = expiresAt; // can be null for permanent
+    data[userId][item] = expiresAt; 
     save(data);
 }
 

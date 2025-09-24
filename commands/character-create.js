@@ -63,7 +63,7 @@ module.exports = {
             .setFooter({ text: 'Keep this safe – you may need it later.' })
             .setTimestamp();
 
-        // Send DM
+      
         try {
             await interaction.user.send({ embeds: [embed] });
         } catch {
@@ -72,11 +72,11 @@ module.exports = {
                 ephemeral: true
             });
 
-            // Still show the embed publicly even if DM fails
+           
             return interaction.followUp({ embeds: [embed] });
         }
 
-        // Show embed in channel AND DM succeeded
+      
         return interaction.reply({
             content: `✅ Character created for **${fullname}**.`,
             embeds: [embed]

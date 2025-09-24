@@ -32,7 +32,7 @@ module.exports = {
             return interaction.reply({ content: `❌ You do not have enough money. Your balance: $${senderBalance}`, ephemeral: true });
         }
 
-        // Deduct from sender and add to recipient
+       
         addMoney(senderId, -amount);
         addMoney(recipient.id, amount);
 

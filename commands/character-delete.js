@@ -44,15 +44,15 @@ module.exports = {
             });
         }
 
-        // Charakter löschen
+        
         delete characters[targetUser.id];
         saveCharacters(characters);
 
-        // DM senden
+        
         try {
             await targetUser.send(`❌ Your character profile has been deleted by ${interaction.user.tag}.`);
         } catch {
-            // Falls keine DM gesendet werden kann, einfach ignorieren
+            
         }
 
         return interaction.reply({ 

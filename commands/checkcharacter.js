@@ -4,11 +4,11 @@ const path = require('path');
 
 const charactersFile = path.join(__dirname, '..', 'characters.json');
 const ticketsFile = path.join(__dirname, '..', 'tickets.json');
-const wantedFile = path.join(__dirname, '..', 'wantedData.json'); // For wanted info
+const wantedFile = path.join(__dirname, '..', 'wantedData.json');
 
-// Role IDs
-const suspendedRoleId = '1404924040606515210';        // Suspended license role
-const drivingLicenseRoleId = '1402712765604560947';   // Driver license role
+
+const suspendedRoleId = '1404924040606515210';        
+const drivingLicenseRoleId = '1402712765604560947';   
 
 function loadCharacters() {
     if (!fs.existsSync(charactersFile)) return {};

@@ -38,7 +38,7 @@ class CountdownManager {
         const totalMs = (timeHours * 60 * 60 * 1000) + (timeMinutes * 60 * 1000);
         const endTime = Date.now() + totalMs;
         
-        // Store the countdown data
+        
         this.activeCountdowns.set(messageId, {
             channelId: channel.id,
             messageId: messageId,
@@ -47,7 +47,7 @@ class CountdownManager {
             interval: null
         });
 
-        // Get the message
+        
         let message;
         try {
             message = await channel.messages.fetch(messageId);
@@ -56,13 +56,13 @@ class CountdownManager {
             return;
         }
 
-        // Update function
+       
         const updateCountdown = async () => {
             const now = Date.now();
             const remaining = endTime - now;
             
             if (remaining <= 0) {
-                // Countdown finished
+                
                 this.stopCountdown(messageId);
                 
                 const finishedEmbed = new EmbedBuilder()
@@ -92,10 +92,10 @@ class CountdownManager {
             }
         };
 
-        // Initial update
+        
         await updateCountdown();
 
-        // Set up interval for updates (every 30 seconds)
+        
         const interval = setInterval(updateCountdown, 30000);
         this.activeCountdowns.get(messageId).interval = interval;
     }
@@ -117,7 +117,7 @@ class CountdownManager {
         this.activeCountdowns.clear();
     }
 
-    // Check for expired sessions on startup
+    
     cleanupExpiredCountdowns() {
         const now = Date.now();
         for (const [messageId, countdown] of this.activeCountdowns) {

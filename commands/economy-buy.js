@@ -1,9 +1,9 @@
 const { SlashCommandBuilder, ActionRowBuilder, StringSelectMenuBuilder, EmbedBuilder } = require('discord.js');
-const { addPurchase, getPurchase, removePurchase } = require('../shopStore'); // JSON store
-const { getBalance, addMoney } = require('../economyStore'); // Economy functions
-const { addLotteryEntry, getLotteryEntries } = require('../lotteryStore'); // New: Lottery functions
+const { addPurchase, getPurchase, removePurchase } = require('../shopStore'); 
+const { getBalance, addMoney } = require('../economyStore'); 
+const { addLotteryEntry, getLotteryEntries } = require('../lotteryStore'); 
 
-// Shop items with prices
+
 const SHOP_ITEMS = [
     { label: 'VIP 30 Min', value: 'vip30', roleId: '1409486868214452255', duration: 30 * 60 * 1000, price: 20000 },
     { label: 'VIP 1 Hour', value: 'vip60', roleId: '1409486868214452255', duration: 60 * 60 * 1000, price: 40010 },

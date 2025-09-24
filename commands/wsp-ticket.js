@@ -4,7 +4,7 @@ const path = require('path');
 
 const ticketsFile = path.join(__dirname, '..', 'tickets.json');
 
-// Ticket role IDs
+
 const TICKET_ROLE_1 = '1402654203268038817';
 const TICKET_ROLE_2 = '1402654271480139876';
 const TICKET_ROLE_3 = '1402654308998054030';
@@ -56,16 +56,16 @@ module.exports = {
         const licenseSuspension = interaction.options.getString('license_suspension');
         const fine = interaction.options.getInteger('fine');
 
-        // Generate random ticket number
-        const ticketNumber = Math.floor(Math.random() * 1000000); // 6-digit random number
+        
+        const ticketNumber = Math.floor(Math.random() * 1000000); 
 
-        // Assign license suspension role if needed
+        
         if (licenseSuspension === 'Yes') {
-            const suspensionRoleId = '1404924040606515210'; // Your license suspension role ID
+            const suspensionRoleId = '1404924040606515210'; 
             try { await member.roles.add(suspensionRoleId); } catch (e) { console.log('Failed to add license suspension role:', e); }
         }
 
-        // Manage ticket roles
+        
         try {
             if (!member.roles.cache.has(TICKET_ROLE_1)) await member.roles.add(TICKET_ROLE_1);
             else if (!member.roles.cache.has(TICKET_ROLE_2)) await member.roles.add(TICKET_ROLE_2);
@@ -75,12 +75,12 @@ module.exports = {
             }
         } catch (e) { console.log('Failed to assign ticket role:', e); }
 
-        // Save ticket
+        
         const tickets = loadTickets();
         tickets.push({ userId: user.id, issuedBy: interaction.user.id, date: new Date().toISOString(), offences, arrested, licenseSuspension, fine, ticketNumber });
         saveTickets(tickets);
 
-        // Build embed
+       
         const offencesText = offences.length > 0 ? offences.map(o => `• ${o}`).join('\n') : 'None';
         const embed = new EmbedBuilder()
             .setTitle('🚔 Wisconsin State Patrol - Traffic Ticket')

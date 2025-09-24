@@ -6,7 +6,7 @@ const filePath = path.join(dataDir, 'registrations.json');
 const backupsDir = path.join(dataDir, 'backups');
 const MAX_BACKUPS = 10;
 
-// ensure data directories exist
+
 if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir);
 if (!fs.existsSync(backupsDir)) fs.mkdirSync(backupsDir, { recursive: true });
 
@@ -21,7 +21,7 @@ function safeReadJSON(fp) {
   }
 }
 
-// 🧹 Entfernt abgelaufene Registrierungen aus einer Map
+
 function removeExpiredRegistrations(map, log = true) {
   const now = Date.now();
   let removed = 0;
@@ -41,7 +41,7 @@ function removeExpiredRegistrations(map, log = true) {
 }
 
 function loadRegistrations() {
-  // Try main file
+ 
   const main = safeReadJSON(filePath);
   let map;
 
@@ -50,7 +50,7 @@ function loadRegistrations() {
       Object.entries(main).map(([k, v]) => [k.toLowerCase(), v])
     );
   } else {
-    // Try latest valid backup
+    
     const backups = fs.readdirSync(backupsDir)
       .filter(f => f.endsWith('.json'))
       .map(f => ({ f, t: fs.statSync(path.join(backupsDir, f)).mtimeMs }))
@@ -65,13 +65,13 @@ function loadRegistrations() {
       }
     }
 
-    // If no valid backup found
+    
     if (!map) {
       map = new Map();
     }
   }
 
-  // ❗ Entferne abgelaufene Registrierungen direkt beim Laden
+  
   removeExpiredRegistrations(map);
 
   return map;
@@ -118,5 +118,5 @@ function saveRegistrations(map) {
 module.exports = {
   loadRegistrations,
   saveRegistrations,
-  removeExpiredRegistrations // ✅ Exportiere für geplante Jobs oder andere Befehle
+  removeExpiredRegistrations 
 };

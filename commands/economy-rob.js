@@ -1,11 +1,11 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const { getBalance, addMoney } = require('../economyStore');
 
-// Cooldowns storage
-const cooldowns = new Map();
-const COOLDOWN = 6000 * 1000; // 1 minute for testing (set higher if you want)
 
-// Protected role IDs
+const cooldowns = new Map();
+const COOLDOWN = 6000 * 1000; 
+
+
 const PROTECTED_ROLES = [
     '1405164435634524234',
     '1372308043454349403',
@@ -45,31 +45,31 @@ module.exports = {
             return interaction.reply({ content: '❌ That person is too poor to rob.', ephemeral: true });
         }
 
-        // Check if victim has a protected role
+      
         const hasProtectedRole = PROTECTED_ROLES.some(roleId => victimMember.roles.cache.has(roleId));
 
         let description;
         let success;
 
         if (hasProtectedRole) {
-            // Auto fail if victim has a protected role
+            
             const penalty = Math.floor(robberBal * 0.1);
             addMoney(robber.id, -penalty);
             success = false;
             description = `🚨 <@${robber.id}> tried to rob <@${victim.id}> who has a protected role and got caught! Lost **$${penalty}**.`;
         } else {
-            // Normal chance system (50% success)
+            
             success = Math.random() < 0.5;
 
             if (success) {
-                // Steal random 10%–30% of victim’s money
+                
                 const amountStolen = Math.floor(victimBal * (0.1 + Math.random() * 0.2));
                 addMoney(robber.id, amountStolen);
                 addMoney(victim.id, -amountStolen);
 
                 description = `💸 <@${robber.id}> successfully robbed <@${victim.id}> and stole **$${amountStolen}**!`;
             } else {
-                // Failed attempt, robber loses 10% of their own money
+                
                 const penalty = Math.floor(robberBal * 0.1);
                 addMoney(robber.id, -penalty);
 

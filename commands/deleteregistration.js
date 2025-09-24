@@ -1,4 +1,4 @@
-// commands/deleteregistration.js
+
 const { SlashCommandBuilder, PermissionFlagsBits } = require('discord.js');
 const { saveRegistrations } = require('../utils/registrationStorage');
 

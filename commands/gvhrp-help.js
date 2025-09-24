@@ -1,4 +1,4 @@
-// commands/help.js
+
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 
 module.exports = {
@@ -11,7 +11,7 @@ module.exports = {
             .setColor("Blue")
             .setDescription("Here’s a list of all available commands, grouped by category:")
 
-            // --- Character Commands ---
+            
             .addFields(
                 { name: "👤 Character Commands", value: 
 `• /character-create – Create a new character
@@ -19,7 +19,7 @@ module.exports = {
 • /checkcharacter – View your character details` }
             )
 
-            // --- Registration Commands ---
+            
             .addFields(
                 { name: "🚗 Registration Commands", value: 
 `• /registercar – Register a new car to your character
@@ -28,21 +28,21 @@ module.exports = {
 • /checkregistration – Check vehicle registration by plate` }
             )
 
-            // --- Record Commands ---
+           
             .addFields(
                 { name: "📂 Record Commands | OCSO/WSP only", value: 
 `• /checkrecord – Check a user’s ticket/record
 • /wiperecord – Wipe a user’s record` }
             )
 
-            // --- License Commands ---
+            
             .addFields(
                 { name: "🎫 License Commands | Staff only", value: 
 `• /givelicense – Give a license to a user
 • /removelicense – Remove a license from a user` }
             )
 
-            // --- Ticket Commands ---
+           
             .addFields(
                 { name: "🚨 Ticket Commands", value: 
 `• /ocso-ticket – Issue a ticket from OCSO
@@ -50,14 +50,14 @@ module.exports = {
 • /ticket-payoff – Pay off a ticket` }
             )
 
-            // --- Wanted System ---
+            
             .addFields(
                 { name: "🚓 Wanted System | WSP/OCSO only", value: 
 `• /wanted – Mark someone as wanted
 • /unwanted – Remove someone from wanted list` }
             )
 
-            // --- Session Commands ---
+            
             .addFields(
                 { name: "📅 Session Commands | Admin only ", value: 
 `• /sessionstart – Start a session
@@ -65,7 +65,7 @@ module.exports = {
 • /sessionend – End the session` }
             )
 
-            // --- Economy System ---
+            
             .addFields(
                 { name: "💰 Economy Commands", value: 
 `• /economy-bal [user] – Check balance (shows rank on leaderboard)
@@ -79,7 +79,7 @@ module.exports = {
 • /economy-rob – Try to rob another player (chance-based)` }
             )
 
-            // --- Casino Commands ---
+            
             .addFields(
                 { name: "🎲 Casino Commands", value: 
 `• /economy-blackjack <bet> – Play Blackjack
@@ -88,7 +88,7 @@ module.exports = {
 • /economy-poker <bet> – Play Poker` }
             )
 
-            // --- Context Menu ---
+            
             .addFields(
                 { name: "📌 Context Menu", value: 
 `• Save Car (Right-Click → Apps → Save Car)` }

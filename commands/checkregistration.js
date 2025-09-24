@@ -24,15 +24,15 @@ module.exports = {
 
     await interaction.deferReply();
 
-    // Load fresh registration data from JSON
+    
     const filePath = path.join(__dirname, '..', 'data', 'registrations.json');
     const registrations = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
-    // Normalize input plate to lowercase
+    
     const plateInput = interaction.options.getString('plate');
     const plateKey = plateInput.toLowerCase();
 
-    // Find registration by matching plate
+    
     const reg = Object.values(registrations).find(r => r.plate.toLowerCase() === plateKey);
 
     if (!reg) {

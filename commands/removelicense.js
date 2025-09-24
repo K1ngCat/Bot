@@ -14,7 +14,7 @@ module.exports = {
     const target = interaction.options.getUser('target');
     const member = interaction.guild.members.cache.get(target.id);
 
-    // Permission check
+    
     if (!interaction.member.permissions.has(PermissionsBitField.Flags.ManageRoles)) {
       return interaction.reply({ content: 'You do not have permission to manage roles.', ephemeral: true });
     }
@@ -27,7 +27,7 @@ module.exports = {
       return interaction.reply({ content: `${member.user.tag} does not have the License role.`, ephemeral: true });
     }
 
-    // Check bot's role hierarchy
+   
     const botMember = interaction.guild.members.me;
     if (botMember.roles.highest.position <= member.roles.highest.position) {
       return interaction.reply({ content: 'I cannot manage roles for that user due to role hierarchy.', ephemeral: true });

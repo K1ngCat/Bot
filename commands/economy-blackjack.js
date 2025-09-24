@@ -1,13 +1,13 @@
 const { SlashCommandBuilder, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 const { getBalance, addMoney } = require('../economyStore');
 
-// === Configuration ===
-const COOLDOWN = 60 * 1000; // 1 minute
+
+const COOLDOWN = 60 * 1000; 
 const MAX_BET = 1000;
 const MAX_WIN = 250000;
 const cooldowns = new Map();
 const VIP_ROLES = ["1409481150447091803", "1372089433876070450"];
-const REAL_VIP = "1409486868214452255"; // special VIP
+const REAL_VIP = "1409486868214452255"; 
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -36,10 +36,10 @@ module.exports = {
         if (balance < bet) return interaction.reply({ content: "❌ You don’t have enough money.", ephemeral: true });
         if (!isVIP && bet > currentMaxBet) return interaction.reply({ content: `❌ Maximum bet is $${currentMaxBet}.`, ephemeral: true });
 
-        // Add user to cooldown
+        
         if (!isVIP) cooldowns.set(userId, now);
 
-        // Deck of cards setup with updated icons
+      
         const suits = ["♠️", "♥️", "♦️", "♣️"];
         const values = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
         const deck = [];
@@ -49,12 +49,12 @@ module.exports = {
             }
         }
 
-        // Helper function to draw a card and remove it from the deck
+        
         function drawCard(d) {
             return d.splice(Math.floor(Math.random() * d.length), 1)[0];
         }
 
-        // Helper function to calculate the score of a hand
+        
         function calcScore(cards) {
             let score = 0, aces = 0;
             for (const c of cards) {
@@ -69,7 +69,7 @@ module.exports = {
         let playerCards = [drawCard(deck), drawCard(deck)];
         let dealerCards = [drawCard(deck), drawCard(deck)];
 
-        // Helper function to format cards with bigger, bold text
+       
         const makeHandString = (cards, hidden = false) => {
             if (hidden) {
                 return `**\`${cards[0].value}${cards[0].suit}\` + \`?\`**`;
@@ -77,7 +77,7 @@ module.exports = {
             return cards.map(c => `**\`${c.value}${c.suit}\`**`).join(" ");
         }
 
-        // Initial embed with updated styling
+       
         const initialEmbed = new EmbedBuilder()
             .setTitle("✨ Blackjack Time! ✨")
             .setColor("DarkButNotBlack")
@@ -90,14 +90,14 @@ module.exports = {
                 { name: 'Bet:', value: `$${bet}`, inline: true },
             );
 
-        // Action buttons
+       
         const row = new ActionRowBuilder()
             .addComponents(
                 new ButtonBuilder().setCustomId('hit').setLabel('Hit 🃏').setStyle(ButtonStyle.Success),
                 new ButtonBuilder().setCustomId('stand').setLabel('Stand ✋').setStyle(ButtonStyle.Danger)
             );
 
-        // Take the bet money from the user
+        
         addMoney(userId, -bet);
         
         const reply = await interaction.reply({ embeds: [initialEmbed], components: [row] });
@@ -160,8 +160,8 @@ module.exports = {
                 const playerScore = calcScore(playerCards);
                 let dealerScore = calcScore(dealerCards);
                 
-                // This is the change to make it easier: the dealer now hits until their score is 18 or more
-                while (dealerScore < 17) { // Reverted to a more balanced dealer logic
+                
+                while (dealerScore < 17) { 
                     dealerCards.push(drawCard(deck));
                     dealerScore = calcScore(dealerCards);
                 }
@@ -176,7 +176,7 @@ module.exports = {
                     color = "Green";
                 } else if (playerScore === dealerScore) {
                     winnings = 0;
-                    addMoney(userId, bet); // Return the initial bet
+                    addMoney(userId, bet); 
                     outcomeMessage = `🤝 It's a push! Your bet has been returned.`;
                     color = "Orange";
                 } else {
@@ -185,12 +185,12 @@ module.exports = {
                     color = "Red";
                 }
 
-                // Apply max win limit if not a VIP
+                
                 if (!isVIP && winnings > MAX_WIN) {
                     winnings = MAX_WIN;
                 }
                 
-                // Add or subtract the final winnings
+                
                 if (winnings !== 0) {
                      addMoney(userId, winnings);
                 }

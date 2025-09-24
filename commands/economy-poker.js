@@ -5,7 +5,7 @@ const COOLDOWN = 3 * 60 * 1000;
 const MAX_BET = 500;
 const MAX_WIN = 100000;
 const cooldowns = new Map();
-// --- These should be in a config file, but are here for simplicity ---
+
 const VIP_ROLES = ["1409481150447091803", "1372089433876070450"];
 const REAL_VIP = "1409486868214452255";
 
@@ -32,30 +32,19 @@ const payouts = {
     "High Card": 0
 };
 
-/**
- * Builds a standard 32-card deck for the game.
- * @returns {Array<Object>} The shuffled deck.
- */
+
 function buildDeck() {
     const deck = [];
     for (const s of suits) for (const v of values) deck.push({ v, s });
     return deck;
 }
 
-/**
- * Draws a single card from the deck, removing it.
- * @param {Array<Object>} deck - The deck to draw from.
- * @returns {Object} The card that was drawn.
- */
+
 function draw(deck) {
     return deck.splice(Math.floor(Math.random() * deck.length), 1)[0];
 }
 
-/**
- * Evaluates a 5-card hand to determine its poker rank.
- * @param {Array<Object>} cards - The 5 cards in the hand.
- * @returns {string} The name of the hand rank (e.g., "Full House").
- */
+
 function evaluateHand(cards) {
     const counts = {};
     const vals = [];
@@ -97,7 +86,7 @@ module.exports = {
         const isRealVIP = member.roles.cache.has(REAL_VIP);
         const now = Date.now();
 
-        // Determine user-specific limits based on their role
+       
         let currentCooldown;
         let currentMaxBet;
         let maxRedraws;
@@ -119,8 +108,7 @@ module.exports = {
         const bet = interaction.options.getInteger('bet');
         const balance = getBalance(userId);
 
-        // --- Pre-game checks ---
-        // ✅ FIX 1: Correctly checks the bet against the user's assigned limit.
+       
         if (bet > currentMaxBet) return interaction.reply({ content: `❌ Your maximum bet is $${currentMaxBet.toLocaleString()}.`, ephemeral: true });
         
         if (bet <= 0) return interaction.reply({ content: "❌ Please enter a valid bet greater than zero.", ephemeral: true });
@@ -133,7 +121,7 @@ module.exports = {
         }
         if (!isVIP) cooldowns.set(userId, now);
 
-        // --- Game Setup ---
+        
         addMoney(userId, -bet);
 
         let deck = buildDeck();
@@ -166,7 +154,7 @@ module.exports = {
 
             if (i.customId === 'draw') {
                 if (redraws >= maxRedraws) {
-                    await i.update({ components: [] }); // Disable buttons
+                    await i.update({ components: [] }); 
                     collector.stop('max_redraws');
                     return;
                 }
@@ -177,7 +165,7 @@ module.exports = {
                     await i.followUp({ content: "ℹ️ The deck was low and has been reshuffled.", ephemeral: true });
                 }
 
-                // Replace all 5 cards
+                
                 hand = [draw(deck), draw(deck), draw(deck), draw(deck), draw(deck)];
 
                 const remainingRedraws = maxRedraws - redraws;
@@ -202,10 +190,10 @@ module.exports = {
 
             let totalPayout = (bet * multiplier);
             if (totalPayout > 0) {
-                totalPayout += bet; // Add the bet back to the payout
+                totalPayout += bet; 
             }
 
-            // ✅ FIX 2: Correctly caps winnings for non-VIPs.
+            
             if (!isVIP && totalPayout > MAX_WIN) {
                 totalPayout = MAX_WIN;
             }

@@ -26,17 +26,17 @@ module.exports = {
         sessionManager.setSessionLink(interaction.channelId, link);
         
         try {
-            // Fetch the original ping message
+            
             const pingMessage = await interaction.channel.messages.fetch(session.messageId);
             
-            // Get users who reacted
+            
             const reaction = pingMessage.reactions.cache.get('✅');
             const users = await reaction.users.fetch();
             
             const participants = [];
             const failedDMs = [];
             
-            // Send DMs to all users who reacted
+            
             for (const [userId, user] of users) {
                 if (user.bot) continue;
                 
@@ -51,7 +51,7 @@ module.exports = {
                 }
             }
             
-            // Create and send summary embed
+           
             const summaryEmbed = EmbedBuilderUtil.getSessionStartEmbed(link, participants);
             
             let summaryText = 'Session started! ';

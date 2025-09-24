@@ -3,18 +3,18 @@ const fs = require('fs');
 const path = require('path');
 const { Client, Collection, GatewayIntentBits, EmbedBuilder } = require('discord.js');
 const { loadRegistrations } = require('./utils/registrationStorage');
-const { restorePurchases } = require('./restorePurchases'); // 👈 restore system
+const { restorePurchases } = require('./restorePurchases'); 
 
-// Import session management utilities
+
 const SessionManager = require('./utils/sessionManager');
 const CountdownManager = require('./utils/countdownManager');
 const EmbedBuilderUtil = require('./utils/embedBuilder');
 
-// ===== Create Discord client =====
+
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
-        GatewayIntentBits.GuildMembers, // needed for role checks
+        GatewayIntentBits.GuildMembers, 
         GatewayIntentBits.GuildMessages,
         GatewayIntentBits.GuildMessageReactions,
         GatewayIntentBits.DirectMessages,
@@ -24,11 +24,11 @@ const client = new Client({
 
 client.commands = new Collection();
 
-// Initialize session managers
+
 client.sessionManager = new SessionManager();
 client.countdownManager = new CountdownManager();
 
-// ===== Recursive command loader function =====
+
 function loadCommandsRecursively(dir) {
     if (!fs.existsSync(dir)) return;
     const files = fs.readdirSync(dir, { withFileTypes: true });
@@ -52,11 +52,11 @@ function loadCommandsRecursively(dir) {
     }
 }
 
-// ===== Load commands recursively from the 'commands' folder =====
+
 const commandsPath = path.join(__dirname, 'commands');
 loadCommandsRecursively(commandsPath);
 
-// ===== Load registrations =====
+
 try {
     client.registrations = loadRegistrations();
     console.log(`📦 Loaded ${client.registrations.size || 0} registrations`);
@@ -64,9 +64,9 @@ try {
     console.error("❌ Failed to load registrations:", err);
 }
 
-// ===== Interaction handler =====
+
 client.on('interactionCreate', async (interaction) => {
-    // --- SLASH COMMAND HANDLER ---
+    
     if (interaction.isChatInputCommand()) {
         const command = client.commands.get(interaction.commandName);
         if (!command) return;
@@ -83,9 +83,9 @@ client.on('interactionCreate', async (interaction) => {
             }
         }
     }
-    // --- BUTTON HANDLER ---
+    
     else if (interaction.isButton()) {
-        // Handle session reinvite button
+        
         if (interaction.customId === 'reinvite_button') {
             const session = client.sessionManager.getSession(interaction.channelId);
             
@@ -116,7 +116,7 @@ client.on('interactionCreate', async (interaction) => {
             }
         }
         
-        // Handle your existing notification button
+       
         else if (interaction.customId === 'notify_session') {
             const sessionDataPath = path.join(__dirname, 'sessionData.json');
             let sessionData;
@@ -124,7 +124,7 @@ client.on('interactionCreate', async (interaction) => {
             try {
                 sessionData = JSON.parse(fs.readFileSync(sessionDataPath, 'utf-8'));
             } catch {
-                // If there's no session file, the buttons are from an old session.
+                
                 await interaction.reply({ content: '❌ This session has already ended.', ephemeral: true });
                 return;
             }
@@ -140,7 +140,7 @@ client.on('interactionCreate', async (interaction) => {
             await interaction.reply({ content: '✅ You will be notified via DM when the session starts!', ephemeral: true });
         }
         
-        // Handle your existing rejoin button
+        
         else if (interaction.customId === 'rejoin_session') {
             const sessionDataPath = path.join(__dirname, 'sessionData.json');
             let sessionData;
@@ -173,9 +173,9 @@ client.on('interactionCreate', async (interaction) => {
     }
 });
 
-// Handle message reactions for session ping
+
 client.on('messageReactionAdd', async (reaction, user) => {
-    // When a reaction is received, check if the reaction is a partial
+    
     if (reaction.partial) {
         try {
             await reaction.fetch();
@@ -185,36 +185,36 @@ client.on('messageReactionAdd', async (reaction, user) => {
         }
     }
     
-    // Check if this is a session ping message
+    
     const session = client.sessionManager.getSession(reaction.message.channelId);
     if (session && session.messageId === reaction.message.id && reaction.emoji.name === '✅') {
-        // Add user to participants if not already added
+        
         client.sessionManager.addParticipant(reaction.message.channelId, user.id);
     }
 });
 
-// ===== Ready event =====
+
 client.once('ready', () => {
     console.log(`✅ Logged in as ${client.user.tag}`);
     
-    // Clean up expired sessions on startup
+    
     client.sessionManager.cleanupExpiredSessions();
     client.countdownManager.cleanupExpiredCountdowns();
     
-    // Set up periodic cleanup (every hour)
+   
     setInterval(() => {
         client.sessionManager.cleanupExpiredSessions();
     }, 3600000);
     
-    restorePurchases(client); // 👈 Restores timers & removes expired roles
+    restorePurchases(client); 
 });
 
-// ===== Global error handling =====
+
 process.on('unhandledRejection', (err) => {
     console.error('🚨 Unhandled Rejection:', err);
 });
 
-// ===== Login =====
+
 client.login(process.env.TOKEN)
     .then(() => console.log("🔑 Login request sent to Discord..."))
     .catch(err => {

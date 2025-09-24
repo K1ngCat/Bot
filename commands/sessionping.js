@@ -43,7 +43,7 @@ module.exports = {
             
             await message.react('✅');
             
-            // Create session in database
+            
             sessionManager.createSession(
                 interaction.channelId, 
                 message.id, 
@@ -52,7 +52,7 @@ module.exports = {
                 cooldown
             );
             
-            // Start the countdown
+            
             countdownManager.startCountdown(
                 interaction.channel,
                 message.id,

@@ -1,8 +1,7 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const { getLotteryEntries } = require('../lotteryStore');
 
-// Define the lottery prize
-// This is the variable you can easily change!
+
 const LOTTERY_PRIZE = 500000; 
 
 module.exports = {
@@ -36,7 +35,7 @@ module.exports = {
             }
         }
 
-        // Handle case where list is too long for a single field
+       
         if (participantsList.length > 1024) {
             participantsList = participantsList.substring(0, 1020) + '...';
         }
