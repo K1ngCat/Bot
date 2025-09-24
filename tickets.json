@@ -1,0 +1,4090 @@
+[
+  {
+    "userId": "1395093871720927353",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-13T13:04:58.517Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1084493344740216993",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-13T13:35:47.276Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1395093871720927353",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-13T13:39:43.865Z",
+    "offences": [
+      "FRP",
+      "Danger",
+      "Reckless driving"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1650
+  },
+  {
+    "userId": "1394305553542545541",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-13T15:47:05.763Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 300
+  },
+  {
+    "userId": "1204923553212923915",
+    "issuedBy": "1223678968096358533",
+    "date": "2025-08-13T15:57:09.230Z",
+    "offences": [
+      "reckless driving",
+      "frp speeds"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1250
+  },
+  {
+    "userId": "519853479246954496",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-13T15:57:17.203Z",
+    "offences": [
+      "Moderate speeding 55 in a 35"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1142043954058100776",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-08-13T16:01:17.165Z",
+    "offences": [
+      "Speeding 36+",
+      "DUC"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1350
+  },
+  {
+    "userId": "929833867345551361",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-13T16:01:37.785Z",
+    "offences": [
+      "Serious speeding 78 in a 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 300
+  },
+  {
+    "userId": "1394305553542545541",
+    "issuedBy": "1223678968096358533",
+    "date": "2025-08-13T16:05:42.039Z",
+    "offences": [
+      "reckless driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500
+  },
+  {
+    "userId": "929833867345551361",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-08-13T16:12:46.166Z",
+    "offences": [
+      "speeding 20+"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 750
+  },
+  {
+    "userId": "1142043954058100776",
+    "issuedBy": "1223678968096358533",
+    "date": "2025-08-13T16:15:15.519Z",
+    "offences": [
+      "frp speeds",
+      "DUC"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1300
+  },
+  {
+    "userId": "1100480138296180888",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-08-13T16:15:32.450Z",
+    "offences": [
+      "frp speeds",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 2000
+  },
+  {
+    "userId": "746777272949801030",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-13T16:25:00.656Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1091750278480531548",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-13T16:31:34.723Z",
+    "offences": [
+      "Assaulting cop",
+      "Breaking cop car"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 9500
+  },
+  {
+    "userId": "1084493344740216993",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-13T16:35:25.426Z",
+    "offences": [
+      "Moderate speeding 68 in a 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1091750278480531548",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-13T16:36:48.826Z",
+    "offences": [
+      "Pissing in a cop car",
+      "Showing his d*ck for a mugshot"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 7000
+  },
+  {
+    "userId": "1369330469434425384",
+    "issuedBy": "1317904406854893638",
+    "date": "2025-08-13T16:37:27.337Z",
+    "offences": [
+      "Serious Speeding",
+      "None",
+      "None",
+      "None",
+      "None"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 300
+  },
+  {
+    "userId": "1299680711292489791",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-13T16:43:14.169Z",
+    "offences": [
+      "Trying to kill a officer"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 2500
+  },
+  {
+    "userId": "754777808059891713",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-13T16:46:23.142Z",
+    "offences": [
+      "FRP",
+      "Danger",
+      "Reckless driving"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1650
+  },
+  {
+    "userId": "1325899614431350826",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-13T16:49:49.167Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 2000
+  },
+  {
+    "userId": "740911264120832010",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-13T17:47:11.388Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 750
+  },
+  {
+    "userId": "1159517737853407232",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-13T17:53:48.966Z",
+    "offences": [
+      "FRP",
+      "Danger",
+      "Reckless driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1650
+  },
+  {
+    "userId": "927652278993825813",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-13T18:03:27.222Z",
+    "offences": [
+      "Hit and run"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 350
+  },
+  {
+    "userId": "899377868348456960",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-13T18:11:09.850Z",
+    "offences": [
+      "Hitting police"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 200
+  },
+  {
+    "userId": "927652278993825813",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-14T10:15:45.029Z",
+    "offences": [
+      "FRP X2",
+      "Danger",
+      "Reckless driving"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 3150
+  },
+  {
+    "userId": "929833867345551361",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-14T10:17:46.390Z",
+    "offences": [
+      "Running a red light"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 200
+  },
+  {
+    "userId": "1316083866276069397",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-14T10:30:25.870Z",
+    "offences": [
+      "Running a red light+danger",
+      "Reckless driving",
+      "Evading police",
+      "Serious speeding",
+      "Hit and run"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 2400
+  },
+  {
+    "userId": "1295121778729025577",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-14T10:40:29.282Z",
+    "offences": [
+      "Moderate speeding 70 in a 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1358143660256133232",
+    "issuedBy": "1317904406854893638",
+    "date": "2025-08-14T10:46:56.518Z",
+    "offences": [
+      "Careless driving",
+      "None",
+      "None",
+      "None",
+      "None"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 100
+  },
+  {
+    "userId": "1394305553542545541",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-14T11:03:23.322Z",
+    "offences": [
+      "Moderate speeding 35 in a 20"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "927652278993825813",
+    "issuedBy": "1317904406854893638",
+    "date": "2025-08-14T11:03:52.926Z",
+    "offences": [
+      "Serious Speeding",
+      "None",
+      "None",
+      "None",
+      "Bone"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 300
+  },
+  {
+    "userId": "1394305553542545541",
+    "issuedBy": "1223678968096358533",
+    "date": "2025-08-14T11:06:25.345Z",
+    "offences": [
+      "frp",
+      "rejoining after getting kicked"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1500
+  },
+  {
+    "userId": "929833867345551361",
+    "issuedBy": "1223678968096358533",
+    "date": "2025-08-14T11:11:22.323Z",
+    "offences": [
+      "speeding  in a construction zone",
+      "hit and run",
+      "reckless driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1500
+  },
+  {
+    "userId": "559403569300635669",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-14T18:54:31.803Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 300
+  },
+  {
+    "userId": "1295121778729025577",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-14T19:08:12.094Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 50
+  },
+  {
+    "userId": "1194355347658379416",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-08-14T19:17:40.587Z",
+    "offences": [
+      "recless driving",
+      "speeding 61 in 20",
+      "NA"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 800
+  },
+  {
+    "userId": "1395093871720927353",
+    "issuedBy": "1223678968096358533",
+    "date": "2025-08-14T19:18:20.049Z",
+    "offences": [
+      "reckless driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500
+  },
+  {
+    "userId": "1317904406854893638",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-14T19:19:30.548Z",
+    "offences": [
+      "FRP",
+      "Danger",
+      "Evading police",
+      "Reckless driving"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 2450
+  },
+  {
+    "userId": "1342339420161835038",
+    "issuedBy": "1223678968096358533",
+    "date": "2025-08-15T17:53:45.467Z",
+    "offences": [
+      "driving a restricted vehicle"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 800
+  },
+  {
+    "userId": "1161082721121087610",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-15T18:01:41.220Z",
+    "offences": [
+      "Moderate speeding 70 in a 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "712616900932403202",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-15T18:08:53.806Z",
+    "offences": [
+      "Moderate speeding  55 in a 35"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "931891943644991498",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-15T20:55:43.509Z",
+    "offences": [
+      "FRP",
+      "Danger",
+      "Reckless driving",
+      "Hit and run"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1550
+  },
+  {
+    "userId": "1335328729961988236",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-16T10:50:54.843Z",
+    "offences": [
+      "DUC"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 600
+  },
+  {
+    "userId": "938352618953113652",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-16T10:53:52.381Z",
+    "offences": [
+      "Unregistered car",
+      "Driving without a license"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1300
+  },
+  {
+    "userId": "1036194342370553926",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-08-16T10:58:35.313Z",
+    "offences": [
+      "no registration"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 600
+  },
+  {
+    "userId": "551740083582140496",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-16T11:00:49.816Z",
+    "offences": [
+      "FRP",
+      "Danger",
+      "Reckless driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1650
+  },
+  {
+    "userId": "1335328729961988236",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-16T11:02:27.921Z",
+    "offences": [
+      "Driving unlicensed car",
+      "evading police"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1300
+  },
+  {
+    "userId": "1258869432189714534",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-16T11:04:04.106Z",
+    "offences": [
+      "29kg of contraband in trunk"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 10000
+  },
+  {
+    "userId": "1374100420615471296",
+    "issuedBy": "1223678968096358533",
+    "date": "2025-08-16T11:09:27.894Z",
+    "offences": [
+      "frp speeds"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 750
+  },
+  {
+    "userId": "551740083582140496",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-16T11:09:55.834Z",
+    "offences": [
+      "Public intoxication",
+      "Evading police",
+      "Assaulting an officer"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 2000
+  },
+  {
+    "userId": "1157045346766172170",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-16T11:11:12.194Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 300
+  },
+  {
+    "userId": "1394305553542545541",
+    "issuedBy": "1223678968096358533",
+    "date": "2025-08-16T11:11:58.807Z",
+    "offences": [
+      "heavy frp speeds (120+)"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 2000
+  },
+  {
+    "userId": "1223678968096358533",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-16T11:16:05.915Z",
+    "offences": [
+      "Reckless driving",
+      "Danger",
+      "Hit and run"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1250
+  },
+  {
+    "userId": "811187997432610837",
+    "issuedBy": "718085640545108009",
+    "date": "2025-08-16T12:54:16.655Z",
+    "offences": [
+      "yes"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1
+  },
+  {
+    "userId": "1041078376573718598",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-08-16T15:34:44.706Z",
+    "offences": [
+      "DUC",
+      "Speeding 20+",
+      "Inconsidarated driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 850
+  },
+  {
+    "userId": "1317904406854893638",
+    "issuedBy": "1342339420161835038",
+    "date": "2025-08-16T16:03:00.956Z",
+    "offences": [
+      "Speeding",
+      "Driving Unlicensed Car"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 650
+  },
+  {
+    "userId": "1191421166750007408",
+    "issuedBy": "1342339420161835038",
+    "date": "2025-08-16T16:14:22.358Z",
+    "offences": [
+      "Felony Speeding"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 300
+  },
+  {
+    "userId": "931891943644991498",
+    "issuedBy": "1342339420161835038",
+    "date": "2025-08-16T16:38:11.047Z",
+    "offences": [
+      "Speeding",
+      "Improper Use Of Vehicle"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 300
+  },
+  {
+    "userId": "810924592204873729",
+    "issuedBy": "551740083582140496",
+    "date": "2025-08-16T16:46:10.656Z",
+    "offences": [],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500
+  },
+  {
+    "userId": "1193237932455235627",
+    "issuedBy": "1223678968096358533",
+    "date": "2025-08-16T19:38:00.377Z",
+    "offences": [
+      "frp speeds"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 750
+  },
+  {
+    "userId": "1222927458928427102",
+    "issuedBy": "1317904406854893638",
+    "date": "2025-08-16T19:44:34.879Z",
+    "offences": [
+      "DUC",
+      "Serious Speeding",
+      "None",
+      "None",
+      "None"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 650
+  },
+  {
+    "userId": "1084921314785116210",
+    "issuedBy": "1223678968096358533",
+    "date": "2025-08-16T19:45:37.374Z",
+    "offences": [
+      "frp speeds",
+      "DUC"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1250
+  },
+  {
+    "userId": "1368516981220966430",
+    "issuedBy": "1317904406854893638",
+    "date": "2025-08-16T19:49:13.912Z",
+    "offences": [
+      "Serious Speeding",
+      "None",
+      "None",
+      "None",
+      "None"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1222927458928427102",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-08-16T19:50:44.677Z",
+    "offences": [
+      "Reckless",
+      "DUC",
+      "improper use of a motor vehicle"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1250
+  },
+  {
+    "userId": "1380370058957819945",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-16T19:56:46.595Z",
+    "offences": [
+      "Evading police",
+      "FRP speeds",
+      "Reckless driving"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 2500
+  },
+  {
+    "userId": "1258869432189714534",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-16T20:00:13.558Z",
+    "offences": [
+      "Speeding in a accident zone"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 300
+  },
+  {
+    "userId": "551740083582140496",
+    "issuedBy": "1259892287626809346",
+    "date": "2025-08-16T21:05:01.763Z",
+    "offences": [],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 20
+  },
+  {
+    "userId": "1259892287626809346",
+    "issuedBy": "718085640545108009",
+    "date": "2025-08-16T21:05:39.990Z",
+    "offences": [
+      "Trying to give me a ticket"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1
+  },
+  {
+    "userId": "1390362763171201216",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-16T21:49:59.865Z",
+    "offences": [
+      "Danger",
+      "Reckless driving",
+      "Hitting police"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 2400
+  },
+  {
+    "userId": "1191421166750007408",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-16T21:53:46.670Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 50
+  },
+  {
+    "userId": "1194355347658379416",
+    "issuedBy": "1342339420161835038",
+    "date": "2025-08-16T22:06:24.406Z",
+    "offences": [
+      "Speeding",
+      "Improper Use of Vehicle"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 300
+  },
+  {
+    "userId": "1084921314785116210",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-16T22:11:31.653Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1374037513517404170",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-16T22:15:11.870Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1374037513517404170",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-16T22:22:21.924Z",
+    "offences": [
+      "Reckless driving",
+      "Danger",
+      "FRP"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1650
+  },
+  {
+    "userId": "1222927458928427102",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-16T22:31:20.845Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "697802914357575790",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-17T13:06:28.951Z",
+    "offences": [
+      "Moderate speeding 65 in 55",
+      "He is very rich"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "899377868348456960",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-17T13:08:46.769Z",
+    "offences": [
+      "Serious speeding 65 in a 35"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 300
+  },
+  {
+    "userId": "899377868348456960",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-17T13:13:34.193Z",
+    "offences": [
+      "Frp speeding"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 750
+  },
+  {
+    "userId": "1390362763171201216",
+    "issuedBy": "1259892287626809346",
+    "date": "2025-08-17T13:27:01.403Z",
+    "offences": [
+      "Doing Danger overtake",
+      "(35MPH) in 66MPH"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 300
+  },
+  {
+    "userId": "1259950646891774014",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-17T13:27:08.186Z",
+    "offences": [
+      "Serious speeding 75 in a 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 300
+  },
+  {
+    "userId": "1207820405746696235",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-17T13:39:59.746Z",
+    "offences": [
+      "Moderate speeding 68 in 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "515348100169072660",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-08-17T13:44:44.031Z",
+    "offences": [
+      "speeding 67/55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 50
+  },
+  {
+    "userId": "1246468965505564746",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-08-17T18:43:46.309Z",
+    "offences": [
+      "speeding 20+"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 159
+  },
+  {
+    "userId": "710992322388557854",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-08-17T18:45:04.794Z",
+    "offences": [
+      "frp speeds",
+      "recless driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1250
+  },
+  {
+    "userId": "755451579641102518",
+    "issuedBy": "1259892287626809346",
+    "date": "2025-08-17T19:00:33.057Z",
+    "offences": [
+      "Going 71 MPH in 55 MPH"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 200
+  },
+  {
+    "userId": "1395093871720927353",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-17T19:05:06.602Z",
+    "offences": [],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 300
+  },
+  {
+    "userId": "1395093871720927353",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-17T19:06:27.530Z",
+    "offences": [
+      "Going 76 MPH in 55MPH"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 300
+  },
+  {
+    "userId": "909635141985505290",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-17T19:10:45.132Z",
+    "offences": [
+      "Going 69MPH in  55 MPH"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 200
+  },
+  {
+    "userId": "985519447198535730",
+    "issuedBy": "1259892287626809346",
+    "date": "2025-08-18T08:05:57.769Z",
+    "offences": [
+      "Going 259 IN 55 MPH"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 250
+  },
+  {
+    "userId": "1335328729961988236",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-18T09:06:36.976Z",
+    "offences": [
+      "Hitting officer"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 500
+  },
+  {
+    "userId": "1246468965505564746",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-18T09:26:38.509Z",
+    "offences": [
+      "FRP",
+      "Hit and run",
+      "Danger",
+      "Reckless driving"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 2000
+  },
+  {
+    "userId": "1335328729961988236",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-08-18T09:30:48.334Z",
+    "offences": [
+      "not registred car"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 600
+  },
+  {
+    "userId": "1388237217436008621",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-08-18T09:36:15.258Z",
+    "offences": [
+      "not registred car"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 600
+  },
+  {
+    "userId": "1075034316121321523",
+    "issuedBy": "718085640545108009",
+    "date": "2025-08-18T09:40:33.720Z",
+    "offences": [
+      "Speeding 8-14 MPH"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 50
+  },
+  {
+    "userId": "1260298719979503636",
+    "issuedBy": "1259892287626809346",
+    "date": "2025-08-18T10:49:02.998Z",
+    "offences": [
+      "Going 56 in 35 area"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1400250368843186276",
+    "issuedBy": "1259892287626809346",
+    "date": "2025-08-18T11:07:13.563Z",
+    "offences": [
+      "Going 73MPH in 55MPH",
+      "Car is not registered"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1450
+  },
+  {
+    "userId": "1393641334841016330",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-08-18T14:52:06.699Z",
+    "offences": [
+      "Speeding 15+",
+      "SPEEDING 20+",
+      "DUC"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 900
+  },
+  {
+    "userId": "1204923553212923915",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-18T19:01:37.661Z",
+    "offences": [
+      "Serious speeding 73 in a 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 300
+  },
+  {
+    "userId": "931891943644991498",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-08-18T19:02:15.678Z",
+    "offences": [
+      "no perm for supercar",
+      "speeding 71/55"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1204923553212923915",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-08-18T19:08:42.564Z",
+    "offences": [
+      "speeding 67/55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 50
+  },
+  {
+    "userId": "931891943644991498",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-08-18T19:16:49.486Z",
+    "offences": [
+      "reckless driving (swerving into lanes)"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500
+  },
+  {
+    "userId": "931891943644991498",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-08-18T19:23:52.535Z",
+    "offences": [
+      "speeding 20+"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "847913268815200257",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-18T19:24:48.929Z",
+    "offences": [
+      "Failure to yield"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 250
+  },
+  {
+    "userId": "931891943644991498",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-08-18T19:27:23.767Z",
+    "offences": [
+      "failure to stop at a stop sign",
+      "speeding 15+"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 350
+  },
+  {
+    "userId": "931891943644991498",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-18T19:30:32.883Z",
+    "offences": [
+      "Improper use of a motor vehicle"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1075034316121321523",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-08-18T19:33:13.423Z",
+    "offences": [
+      "frp speed 73/55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 750
+  },
+  {
+    "userId": "1064544209706692658",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-18T19:54:09.481Z",
+    "offences": [
+      "Serious speeding 75 in a 55",
+      "Reckless driving",
+      "Driving on the wrong side of the road",
+      "Kidnapping"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 2100
+  },
+  {
+    "userId": "1393641334841016330",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-18T19:55:11.097Z",
+    "offences": [
+      "Driving 120mph+"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1800
+  },
+  {
+    "userId": "1393641334841016330",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-18T20:05:29.905Z",
+    "offences": [
+      "di"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 2800
+  },
+  {
+    "userId": "1393641334841016330",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-18T20:06:45.587Z",
+    "offences": [
+      "Driving  120mph+  and drfding"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 2800
+  },
+  {
+    "userId": "1393641334841016330",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-18T20:09:02.449Z",
+    "offences": [
+      "Driving 120mph+"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 2800
+  },
+  {
+    "userId": "931891943644991498",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-18T20:11:31.437Z",
+    "offences": [
+      "Driving 80mph"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 650
+  },
+  {
+    "userId": "710992322388557854",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-18T20:24:15.434Z",
+    "offences": [
+      "FRP speeds",
+      "Reckless driving"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1250
+  },
+  {
+    "userId": "1031578329687531621",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-18T20:24:17.181Z",
+    "offences": [
+      "Driving 80mph"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 400
+  },
+  {
+    "userId": "710992322388557854",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-18T20:25:31.248Z",
+    "offences": [
+      "Driving 120mph+"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1800
+  },
+  {
+    "userId": "710992322388557854",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-18T20:26:19.978Z",
+    "offences": [
+      "Driving 120moh+"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 2800
+  },
+  {
+    "userId": "697802914357575790",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-18T20:30:36.702Z",
+    "offences": [
+      "Serious speeding 74 in a 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 300
+  },
+  {
+    "userId": "1259892287626809346",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-18T20:40:47.956Z",
+    "offences": [
+      "DUI",
+      "FRP speeding",
+      "Reckless driving",
+      "Vehicular assault",
+      "Driving on the wrong side of the road"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 4000
+  },
+  {
+    "userId": "755451579641102518",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-18T21:07:06.505Z",
+    "offences": [
+      "Hit and run",
+      "FRP",
+      "Danger",
+      "Improper lane change",
+      "Reckless driving"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 2150
+  },
+  {
+    "userId": "1076594092672299190",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-08-19T09:57:52.923Z",
+    "offences": [
+      "reckless driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500
+  },
+  {
+    "userId": "1223055216258322492",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-19T17:14:19.232Z",
+    "offences": [
+      "Normal Speeding 45 in a 35"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 50
+  },
+  {
+    "userId": "1395093871720927353",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-19T17:16:43.654Z",
+    "offences": [
+      "Driving 77mph"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 460
+  },
+  {
+    "userId": "755451579641102518",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-19T17:22:50.250Z",
+    "offences": [
+      "FRP speeds 92 in a 55",
+      "Reckless driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1300
+  },
+  {
+    "userId": "1395093871720927353",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-19T17:26:51.619Z",
+    "offences": [
+      "Driving 81 mph in 55mph"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1200
+  },
+  {
+    "userId": "1320009427411144734",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-19T17:28:55.612Z",
+    "offences": [
+      "Improper passing",
+      "Vehicular assault"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 850
+  },
+  {
+    "userId": "1259950646891774014",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-19T18:01:38.074Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 2600
+  },
+  {
+    "userId": "1149045647438250004",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-08-19T18:33:35.625Z",
+    "offences": [
+      "frp speeds"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 750
+  },
+  {
+    "userId": "1259892287626809346",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-19T18:34:31.724Z",
+    "offences": [
+      "Hit and run",
+      "Moderate speeding"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500
+  },
+  {
+    "userId": "1259950646891774014",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-19T18:35:04.708Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 3600
+  },
+  {
+    "userId": "1320009427411144734",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-19T18:39:23.158Z",
+    "offences": [
+      "FRP",
+      "Driving 66mph in 55 mph"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1200
+  },
+  {
+    "userId": "746664142806712330",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-20T15:34:10.002Z",
+    "offences": [
+      "Moderate Speeding 73 in 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1324420061007450172",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-20T15:39:43.401Z",
+    "offences": [
+      "Moderate speeding 50 in a 35"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1319055503732641875",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-20T15:49:51.399Z",
+    "offences": [
+      "Moderate speeding 70 in 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1112705397917220884",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-20T15:54:00.574Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "559403569300635669",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-20T16:11:18.925Z",
+    "offences": [
+      "Trying to kill an officer"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 2500
+  },
+  {
+    "userId": "987826516907925615",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-20T16:18:47.802Z",
+    "offences": [
+      "Serious speeding 75 in 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 300
+  },
+  {
+    "userId": "559403569300635669",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-20T16:22:30.273Z",
+    "offences": [
+      "FRP",
+      "Danger"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1150
+  },
+  {
+    "userId": "1260298719979503636",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-20T16:26:09.009Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 300
+  },
+  {
+    "userId": "697802914357575790",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-20T16:40:19.174Z",
+    "offences": [
+      "Reckless driving",
+      "Danger"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 950
+  },
+  {
+    "userId": "810139629663289355",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-20T16:42:04.853Z",
+    "offences": [
+      "DUI",
+      "Vehicular assault"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1100
+  },
+  {
+    "userId": "755451579641102518",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-08-20T19:51:13.951Z",
+    "offences": [
+      "speeding 55/35"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1048308879106265219",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-08-20T20:04:55.716Z",
+    "offences": [
+      "speeding 42/20"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1048308879106265219",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-08-20T20:27:23.203Z",
+    "offences": [
+      "frp speeds 105/55"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1000
+  },
+  {
+    "userId": "1259950646891774014",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-21T10:52:35.683Z",
+    "offences": [
+      "Danger",
+      "Improper parking"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 600
+  },
+  {
+    "userId": "1407361396991328349",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-08-21T11:01:13.027Z",
+    "offences": [
+      "Careless driving",
+      "DUC"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 700
+  },
+  {
+    "userId": "1107344417670561884",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-08-21T11:29:24.475Z",
+    "offences": [
+      "DUC",
+      "Speeding 20+"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 750
+  },
+  {
+    "userId": "1407361396991328349",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-21T11:48:41.242Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 300
+  },
+  {
+    "userId": "551740083582140496",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-21T12:15:02.753Z",
+    "offences": [
+      "FRP X5",
+      "Improper lane change X4",
+      "Reckless driving X9",
+      "Hit and run X5",
+      "Danger X6"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 13000
+  },
+  {
+    "userId": "697802914357575790",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-08-21T16:56:17.513Z",
+    "offences": [],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 750
+  },
+  {
+    "userId": "697802914357575790",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-08-21T16:57:55.886Z",
+    "offences": [
+      "failure to yield",
+      "reckless driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 750
+  },
+  {
+    "userId": "298194284287492097",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-08-21T17:04:31.571Z",
+    "offences": [
+      "reckless driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500
+  },
+  {
+    "userId": "755451579641102518",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-21T17:09:05.138Z",
+    "offences": [
+      "Distracted driving",
+      "Run a red light"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500
+  },
+  {
+    "userId": "1149045647438250004",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-21T17:16:57.633Z",
+    "offences": [
+      "Improper lane change"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1305313707311759460",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-08-21T17:17:54.719Z",
+    "offences": [
+      "reckless driving",
+      "major FRP speed",
+      "running on a red light -danger"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "No",
+    "fine": 1450
+  },
+  {
+    "userId": "1407361396991328349",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-21T17:40:00.929Z",
+    "offences": [
+      "Danger",
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1150
+  },
+  {
+    "userId": "1075034316121321523",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-08-21T17:41:09.989Z",
+    "offences": [
+      "reckless driving",
+      "driving over the speed limit (15-20MPH more)",
+      "driving on the wrong side of the road",
+      "hitting a cop car"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1050
+  },
+  {
+    "userId": "1240700693539717151",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-08-21T17:52:05.965Z",
+    "offences": [
+      "reckless driving",
+      "Major FRP speed (117 MPH on a 65 road)"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1250
+  },
+  {
+    "userId": "968590752349290506",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-08-21T19:48:31.555Z",
+    "offences": [
+      "frp speeds 70/55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 750
+  },
+  {
+    "userId": "1048308879106265219",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-21T19:57:54.026Z",
+    "offences": [
+      "Serious speeding"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 300
+  },
+  {
+    "userId": "1161082721121087610",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-21T20:03:58.786Z",
+    "offences": [
+      "Moderate speeding"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1161082721121087610",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-21T20:14:22.128Z",
+    "offences": [
+      "FRP speeds"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 750
+  },
+  {
+    "userId": "1075034316121321523",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-08-21T20:18:00.765Z",
+    "offences": [
+      "speeding"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1342339420161835038",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-21T20:21:28.979Z",
+    "offences": [
+      "FRP X3",
+      "Danger X3",
+      "Reckless driving X4"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 5250
+  },
+  {
+    "userId": "1259892287626809346",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-21T20:26:27.637Z",
+    "offences": [
+      "Driving 150 mph in 55",
+      "Driving 170 mph in 55 mph",
+      "Driving 180 mph in 55 mph"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 15000
+  },
+  {
+    "userId": "1075034316121321523",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-08-22T10:05:20.375Z",
+    "offences": [
+      "reckless driving (drifting)"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 550
+  },
+  {
+    "userId": "1046423735843950732",
+    "issuedBy": "1112705397917220884",
+    "date": "2025-08-22T10:34:31.389Z",
+    "offences": [],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 50
+  },
+  {
+    "userId": "1075034316121321523",
+    "issuedBy": "1112705397917220884",
+    "date": "2025-08-22T10:41:45.472Z",
+    "offences": [],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 600
+  },
+  {
+    "userId": "985519447198535730",
+    "issuedBy": "1159517737853407232",
+    "date": "2025-08-22T11:59:49.899Z",
+    "offences": [
+      "FRP Speeds x10",
+      "Hit And Run x3",
+      "Reckless Driving x10",
+      "Driving On Wrong Side Of The Road x6",
+      "Street Racing x3"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 18200
+  },
+  {
+    "userId": "1159517737853407232",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-22T12:01:00.772Z",
+    "offences": [],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 20000
+  },
+  {
+    "userId": "1407361396991328349",
+    "issuedBy": "1342339420161835038",
+    "date": "2025-08-22T17:02:23.217Z",
+    "offences": [
+      "FRP Speeding x1",
+      "DUC",
+      "Careless Driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1500
+  },
+  {
+    "userId": "1068897530231934996",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-08-22T17:05:37.745Z",
+    "offences": [
+      "reckless driving",
+      "hitting a cop car"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 700
+  },
+  {
+    "userId": "568078811648884736",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-08-22T17:22:59.896Z",
+    "offences": [
+      "illegal parking",
+      "cop baiting"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 600
+  },
+  {
+    "userId": "1335328729961988236",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-08-22T17:24:34.829Z",
+    "offences": [
+      "reckless driving",
+      "dangerous over taking"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 750
+  },
+  {
+    "userId": "1223055216258322492",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-23T16:24:59.933Z",
+    "offences": [
+      "Serious speeding 70 in a 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 300
+  },
+  {
+    "userId": "810139629663289355",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-08-23T16:26:32.213Z",
+    "offences": [
+      "hitting another civilian car",
+      "risky overtaking someone"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 550
+  },
+  {
+    "userId": "810139629663289355",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-23T16:39:32.453Z",
+    "offences": [
+      "Moderate speeding 65 in 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "298194284287492097",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-23T16:49:13.373Z",
+    "offences": [
+      "Moderate speeding 57 in a 35"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1048308879106265219",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-08-23T16:55:32.548Z",
+    "offences": [
+      "hitting another civilian car"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 350
+  },
+  {
+    "userId": "1335328729961988236",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-24T11:49:13.345Z",
+    "offences": [
+      "Driving 70 mph in 55 mph"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 460
+  },
+  {
+    "userId": "1335328729961988236",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-24T11:53:41.818Z",
+    "offences": [
+      "Driving 100 mph in 55 mph",
+      "dont stop bullover"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1600
+  },
+  {
+    "userId": "750494861966311465",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-24T11:59:06.820Z",
+    "offences": [
+      "Moderate speeding 50 in 35"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 150
+  },
+  {
+    "userId": "1057985107891343380",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-24T12:00:41.961Z",
+    "offences": [
+      "Driving 66mph in 35 mph",
+      "Dont stop  bullover",
+      "Driving 100 mph in 35 mph"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 2100
+  },
+  {
+    "userId": "1048308879106265219",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-24T12:15:31.314Z",
+    "offences": [
+      "Danger",
+      "Reckless driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 900
+  },
+  {
+    "userId": "1036194342370553926",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-24T12:20:36.412Z",
+    "offences": [
+      "Danger",
+      "FRP"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1150
+  },
+  {
+    "userId": "1231937229660749869",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-08-24T15:29:45.422Z",
+    "offences": [
+      "driving on the wrong side of the road (uk rp)"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 200,
+    "ticketNumber": 437393,
+    "paidOff": true
+  },
+  {
+    "userId": "718085640545108009",
+    "issuedBy": "1112705397917220884",
+    "date": "2025-08-24T15:53:21.618Z",
+    "offences": [],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 50,
+    "ticketNumber": 304123
+  },
+  {
+    "userId": "922510822981390436",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-08-24T15:58:33.014Z",
+    "offences": [
+      "illegal overtaking while holding a slow sign up."
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 250,
+    "ticketNumber": 456432,
+    "paidOff": true
+  },
+  {
+    "userId": "763076303862628353",
+    "issuedBy": "718085640545108009",
+    "date": "2025-08-24T16:10:42.134Z",
+    "offences": [
+      "IDK"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1000,
+    "ticketNumber": 317084,
+    "paidOff": true
+  },
+  {
+    "userId": "1049997124504408074",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-08-24T16:11:55.755Z",
+    "offences": [
+      "illegal parking"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 250,
+    "ticketNumber": 330394
+  },
+  {
+    "userId": "718085640545108009",
+    "issuedBy": "718085640545108009",
+    "date": "2025-08-25T10:59:14.924Z",
+    "offences": [
+      "Speeding (idk how fast)"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500,
+    "ticketNumber": 125376,
+    "paidOff": true
+  },
+  {
+    "userId": "927652278993825813",
+    "issuedBy": "718085640545108009",
+    "date": "2025-08-25T13:36:39.288Z",
+    "offences": [
+      "Speeding | 6-13 MPH"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500,
+    "ticketNumber": 868647
+  },
+  {
+    "userId": "800152391260438559",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-25T13:42:56.068Z",
+    "offences": [
+      "Reckless driving",
+      "Improper lane change"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 6500,
+    "ticketNumber": 966390
+  },
+  {
+    "userId": "1231937229660749869",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-08-25T13:45:23.350Z",
+    "offences": [
+      "speeding 20+"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 3000,
+    "ticketNumber": 344722
+  },
+  {
+    "userId": "1036194342370553926",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-25T13:47:44.386Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 3000,
+    "ticketNumber": 866434
+  },
+  {
+    "userId": "718085640545108009",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-08-26T09:53:00.719Z",
+    "offences": [
+      "vehicular assault",
+      "hit and run"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 9500,
+    "ticketNumber": 653656,
+    "paidOff": true
+  },
+  {
+    "userId": "1408500768494977124",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-08-26T09:54:52.232Z",
+    "offences": [
+      "Distracted walking"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 100,
+    "ticketNumber": 581600,
+    "paidOff": true
+  },
+  {
+    "userId": "740911264120832010",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-26T09:58:25.450Z",
+    "offences": [
+      "Moderate speeding"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1500,
+    "ticketNumber": 986212,
+    "paidOff": true
+  },
+  {
+    "userId": "740911264120832010",
+    "issuedBy": "718085640545108009",
+    "date": "2025-08-26T10:42:11.871Z",
+    "offences": [
+      "Speeding | 6-13 MPH"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1500,
+    "ticketNumber": 777235
+  },
+  {
+    "userId": "1157045346766172170",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-26T16:36:40.673Z",
+    "offences": [
+      "drove on the wrong side of the road"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 220,
+    "ticketNumber": 506330,
+    "paidOff": true
+  },
+  {
+    "userId": "937036017490329661",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-26T16:40:38.132Z",
+    "offences": [
+      "had an accident",
+      "just drove away from the police"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1200,
+    "ticketNumber": 145723
+  },
+  {
+    "userId": "1300271712620773457",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-26T16:44:50.494Z",
+    "offences": [
+      "the car is not registered",
+      "40mph in 35 mph",
+      "90mph in 75"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1000,
+    "ticketNumber": 590275
+  },
+  {
+    "userId": "1300271712620773457",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-26T16:49:11.682Z",
+    "offences": [
+      "the car is not registered",
+      "40mph in 35 mph",
+      "90mph in 40 mph"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 2200,
+    "ticketNumber": 455503
+  },
+  {
+    "userId": "573979086192377871",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-26T17:04:11.260Z",
+    "offences": [
+      "hea an accident",
+      "dont stop",
+      "the car is not registered"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 2200,
+    "ticketNumber": 275842
+  },
+  {
+    "userId": "1187121211168264263",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-08-28T17:34:29.310Z",
+    "offences": [
+      "speeding 20+",
+      "speeding 10+"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 450,
+    "ticketNumber": 696252
+  },
+  {
+    "userId": "958041872796901436",
+    "issuedBy": "1223678968096358533",
+    "date": "2025-08-28T17:35:06.787Z",
+    "offences": [
+      "overtaking (not sure of speeding)"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500,
+    "ticketNumber": 6117,
+    "paidOff": true
+  },
+  {
+    "userId": "956713502175817780",
+    "issuedBy": "1112705397917220884",
+    "date": "2025-08-28T17:36:27.567Z",
+    "offences": [],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1500,
+    "ticketNumber": 892040
+  },
+  {
+    "userId": "662621075976355841",
+    "issuedBy": "1223678968096358533",
+    "date": "2025-08-28T18:00:35.998Z",
+    "offences": [
+      "drifting"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500,
+    "ticketNumber": 949660
+  },
+  {
+    "userId": "1164853388790480896",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-08-29T12:07:13.521Z",
+    "offences": [
+      "Careless driving",
+      "DUC"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 700,
+    "ticketNumber": 739088
+  },
+  {
+    "userId": "1143218896002891866",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-29T12:10:35.951Z",
+    "offences": [
+      "Moderate speeding 52 in a 35"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1500,
+    "ticketNumber": 28788,
+    "paidOff": true
+  },
+  {
+    "userId": "1187121211168264263",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-29T12:17:49.410Z",
+    "offences": [
+      "FRP speeding 113 in a 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 7500,
+    "ticketNumber": 987279
+  },
+  {
+    "userId": "763076303862628353",
+    "issuedBy": "1380850260833992796",
+    "date": "2025-08-29T17:12:35.575Z",
+    "offences": [
+      "speeding",
+      "running away",
+      "causing crash"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1500,
+    "ticketNumber": 102747
+  },
+  {
+    "userId": "763076303862628353",
+    "issuedBy": "1380850260833992796",
+    "date": "2025-08-29T17:14:29.809Z",
+    "offences": [
+      "speeding (75 in a 50)",
+      "causing a crash",
+      "skidding"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1500,
+    "ticketNumber": 227718
+  },
+  {
+    "userId": "559403569300635669",
+    "issuedBy": "718085640545108009",
+    "date": "2025-08-29T17:29:38.339Z",
+    "offences": [
+      "FRP Speeds."
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 7500,
+    "ticketNumber": 5924
+  },
+  {
+    "userId": "899377868348456960",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-08-29T17:31:41.706Z",
+    "offences": [
+      "speeding 13 MPH more"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1500,
+    "ticketNumber": 63961
+  },
+  {
+    "userId": "899377868348456960",
+    "issuedBy": "1380850260833992796",
+    "date": "2025-08-29T17:32:43.591Z",
+    "offences": [
+      "speeding 7 MPH more (62 in 55)"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500,
+    "ticketNumber": 321543
+  },
+  {
+    "userId": "1408035497413967981",
+    "issuedBy": "1380850260833992796",
+    "date": "2025-08-29T17:33:24.096Z",
+    "offences": [
+      "speeding 7 MPH more (62 in 55)"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500,
+    "ticketNumber": 915464,
+    "paidOff": true
+  },
+  {
+    "userId": "826496390187843666",
+    "issuedBy": "718085640545108009",
+    "date": "2025-08-29T17:38:04.833Z",
+    "offences": [
+      "FRP Speeding",
+      "Reckless driving"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 12500,
+    "ticketNumber": 699435
+  },
+  {
+    "userId": "944583177513631754",
+    "issuedBy": "1380850260833992796",
+    "date": "2025-08-29T17:42:43.659Z",
+    "offences": [
+      "speeding",
+      "reckless driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 6500,
+    "ticketNumber": 132137
+  },
+  {
+    "userId": "1014151367843127369",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-08-29T18:14:52.082Z",
+    "offences": [
+      "driving on a red light"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 2000,
+    "ticketNumber": 55430
+  },
+  {
+    "userId": "1408035497413967981",
+    "issuedBy": "1335328729961988236",
+    "date": "2025-08-29T18:32:55.539Z",
+    "offences": [],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1800,
+    "ticketNumber": 116061,
+    "paidOff": true
+  },
+  {
+    "userId": "1161082721121087610",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-08-29T18:33:54.039Z",
+    "offences": [
+      "DUC",
+      "Failure to yield",
+      "Speeding 20+",
+      "improper use of a motor vehicle"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1800,
+    "ticketNumber": 434005
+  },
+  {
+    "userId": "374616748114051086",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-08-29T19:40:54.042Z",
+    "offences": [
+      "speeding 20+"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 300,
+    "ticketNumber": 519951
+  },
+  {
+    "userId": "1241840161608700065",
+    "issuedBy": "1380850260833992796",
+    "date": "2025-08-29T19:49:28.774Z",
+    "offences": [
+      "reckless driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500,
+    "ticketNumber": 89997
+  },
+  {
+    "userId": "1395093871720927353",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-08-29T19:51:30.600Z",
+    "offences": [
+      "running a red light with danger",
+      "Reckless driving",
+      "Improper passing",
+      "Improper use of a motor vehicle"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1300,
+    "ticketNumber": 843422
+  },
+  {
+    "userId": "1408035497413967981",
+    "issuedBy": "1380850260833992796",
+    "date": "2025-08-29T20:26:31.638Z",
+    "offences": [
+      "speeding",
+      "reckless driving",
+      "frp (reckless driving+speeding (62mph)"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 800,
+    "ticketNumber": 361996,
+    "paidOff": true
+  },
+  {
+    "userId": "1408035497413967981",
+    "issuedBy": "1380850260833992796",
+    "date": "2025-08-29T20:34:25.365Z",
+    "offences": [
+      "driving on suspended license"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 800,
+    "ticketNumber": 807449,
+    "paidOff": true
+  },
+  {
+    "userId": "1408035497413967981",
+    "issuedBy": "1380850260833992796",
+    "date": "2025-08-29T20:36:54.668Z",
+    "offences": [
+      "FRP (speeding + reckless)",
+      "driving on revoked license"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 5000,
+    "ticketNumber": 329633,
+    "paidOff": true
+  },
+  {
+    "userId": "551740083582140496",
+    "issuedBy": "1335328729961988236",
+    "date": "2025-08-30T11:13:15.258Z",
+    "offences": [
+      "Felony Speeding ( 85+ mph )"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 0,
+    "ticketNumber": 351214
+  },
+  {
+    "userId": "997081351385784361",
+    "issuedBy": "1380850260833992796",
+    "date": "2025-08-30T11:15:31.540Z",
+    "offences": [
+      "hit and run."
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 350,
+    "ticketNumber": 798347,
+    "paidOff": true
+  },
+  {
+    "userId": "997081351385784361",
+    "issuedBy": "1380850260833992796",
+    "date": "2025-08-30T11:25:07.627Z",
+    "offences": [
+      "driving on wrong side of the road"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 400,
+    "ticketNumber": 132496,
+    "paidOff": true
+  },
+  {
+    "userId": "1231937229660749869",
+    "issuedBy": "811187997432610837",
+    "date": "2025-08-30T11:26:59.058Z",
+    "offences": [
+      "Felony Speeding"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 300,
+    "ticketNumber": 142853,
+    "paidOff": true
+  },
+  {
+    "userId": "1408035497413967981",
+    "issuedBy": "1380850260833992796",
+    "date": "2025-08-30T11:45:32.442Z",
+    "offences": [
+      "improper passing",
+      "reckless driving",
+      "normal speeding"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 500,
+    "ticketNumber": 620513,
+    "paidOff": true
+  },
+  {
+    "userId": "1403350642767958160",
+    "issuedBy": "1335328729961988236",
+    "date": "2025-08-30T12:01:59.875Z",
+    "offences": [
+      "Unregistered Vehicle"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 600,
+    "ticketNumber": 488068
+  },
+  {
+    "userId": "1079382863977382026",
+    "issuedBy": "1223678968096358533",
+    "date": "2025-08-30T16:42:22.286Z",
+    "offences": [
+      "frp speeding (85)",
+      "driving an un registered car"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1250,
+    "ticketNumber": 21582,
+    "paidOff": true
+  },
+  {
+    "userId": "1115324968830521354",
+    "issuedBy": "1259892287626809346",
+    "date": "2025-08-30T16:46:24.366Z",
+    "offences": [
+      "Car is not registered"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 30,
+    "ticketNumber": 605115,
+    "paidOff": true
+  },
+  {
+    "userId": "1317904406854893638",
+    "issuedBy": "718085640545108009",
+    "date": "2025-08-30T16:51:23.571Z",
+    "offences": [
+      "Reckless Driving",
+      "DUI",
+      "DUC",
+      "Evading police"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 2700,
+    "ticketNumber": 825776
+  },
+  {
+    "userId": "1079382863977382026",
+    "issuedBy": "1223678968096358533",
+    "date": "2025-08-30T16:56:39.383Z",
+    "offences": [
+      "reckless driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500,
+    "ticketNumber": 904
+  },
+  {
+    "userId": "927652278993825813",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-30T17:07:26.494Z",
+    "offences": [
+      "65 mph in 55 mph",
+      "Driving wrong",
+      "The police drove away."
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 2200,
+    "ticketNumber": 789662
+  },
+  {
+    "userId": "1190238619164753993",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-30T17:16:39.944Z",
+    "offences": [
+      "Drifting in road"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 600,
+    "ticketNumber": 662815,
+    "paidOff": true
+  },
+  {
+    "userId": "1387451063078223962",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-30T17:25:09.719Z",
+    "offences": [
+      "62mph in 55 mph",
+      "Car not registration"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1200,
+    "ticketNumber": 979258
+  },
+  {
+    "userId": "1408035497413967981",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-30T17:25:11.011Z",
+    "offences": [
+      "Moderate speeding"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 400,
+    "ticketNumber": 299761,
+    "paidOff": true
+  },
+  {
+    "userId": "1079382863977382026",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-30T17:31:56.234Z",
+    "offences": [
+      "Improper use of a motor vehicle"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 300,
+    "ticketNumber": 500273,
+    "paidOff": true
+  },
+  {
+    "userId": "1267244153918455862",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-30T17:35:44.500Z",
+    "offences": [
+      "not super car owner"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 800,
+    "ticketNumber": 929309
+  },
+  {
+    "userId": "1267244153918455862",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-30T17:37:24.876Z",
+    "offences": [
+      "not super car owner",
+      "The police drove away"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1200,
+    "ticketNumber": 416399
+  },
+  {
+    "userId": "1387451063078223962",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-30T17:42:01.674Z",
+    "offences": [
+      "58mph in 55 mph"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 400,
+    "ticketNumber": 603661,
+    "paidOff": true
+  },
+  {
+    "userId": "1408035497413967981",
+    "issuedBy": "1335328729961988236",
+    "date": "2025-08-30T17:48:19.025Z",
+    "offences": [
+      "Operating a Motor Vehicle without being reg",
+      "Speeding ( 67 in a 55 )"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1150,
+    "ticketNumber": 375677,
+    "paidOff": true
+  },
+  {
+    "userId": "1387451063078223962",
+    "issuedBy": "811187997432610837",
+    "date": "2025-08-30T18:02:28.580Z",
+    "offences": [
+      "346.62 - FRP Speeds. (81 in a 55)"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "No",
+    "fine": 1150,
+    "ticketNumber": 586910,
+    "paidOff": true
+  },
+  {
+    "userId": "1161082721121087610",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-30T18:07:22.659Z",
+    "offences": [
+      "car not registration",
+      "70mph in 55mph"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1200,
+    "ticketNumber": 42704
+  },
+  {
+    "userId": "1258869432189714534",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-08-30T18:07:52.434Z",
+    "offences": [
+      "reckless driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 700,
+    "ticketNumber": 433821
+  },
+  {
+    "userId": "1299680711292489791",
+    "issuedBy": "985519447198535730",
+    "date": "2025-08-30T18:12:14.062Z",
+    "offences": [
+      "Drifding in road"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 400,
+    "ticketNumber": 559735,
+    "paidOff": true
+  },
+  {
+    "userId": "1161082721121087610",
+    "issuedBy": "1335328729961988236",
+    "date": "2025-08-30T18:19:17.502Z",
+    "offences": [
+      "Improper Lane Change",
+      "Driving on Wrong Side of Road",
+      "Driving Unlicensed Car (DUC)"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1800,
+    "ticketNumber": 619003
+  },
+  {
+    "userId": "1011253889120600084",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-31T11:46:29.799Z",
+    "offences": [
+      "Normal speeding 64 in 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 250,
+    "ticketNumber": 985437,
+    "paidOff": true
+  },
+  {
+    "userId": "485876633639714816",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-08-31T11:49:26.766Z",
+    "offences": [
+      "Speeding 30+",
+      "Plate violation"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1250,
+    "ticketNumber": 192505,
+    "paidOff": true
+  },
+  {
+    "userId": "1299728322795671693",
+    "issuedBy": "763076303862628353",
+    "date": "2025-08-31T11:50:09.195Z",
+    "offences": [
+      "57 in a 35"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 400,
+    "ticketNumber": 800326
+  },
+  {
+    "userId": "1157045346766172170",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-08-31T18:17:08.424Z",
+    "offences": [
+      "DUC",
+      "Careless driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 750,
+    "ticketNumber": 272599
+  },
+  {
+    "userId": "939631026521636974",
+    "issuedBy": "763076303862628353",
+    "date": "2025-09-01T16:06:03.496Z",
+    "offences": [
+      "Moderate speeding 67 in a 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 400,
+    "ticketNumber": 481100,
+    "paidOff": true
+  },
+  {
+    "userId": "1405908730817548420",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-09-01T16:11:59.994Z",
+    "offences": [
+      "speeding 63/55",
+      "evading police"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1700,
+    "ticketNumber": 654573
+  },
+  {
+    "userId": "1405908730817548420",
+    "issuedBy": "763076303862628353",
+    "date": "2025-09-01T16:14:59.405Z",
+    "offences": [
+      "Serious speeding 75 in a 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 650,
+    "ticketNumber": 869797
+  },
+  {
+    "userId": "1387451063078223962",
+    "issuedBy": "763076303862628353",
+    "date": "2025-09-01T16:17:51.770Z",
+    "offences": [
+      "Serious speeding 75 in a 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 650,
+    "ticketNumber": 17793,
+    "paidOff": true
+  },
+  {
+    "userId": "1115324968830521354",
+    "issuedBy": "931891943644991498",
+    "date": "2025-09-01T16:25:15.981Z",
+    "offences": [],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 650,
+    "ticketNumber": 229555,
+    "paidOff": true
+  },
+  {
+    "userId": "515348100169072660",
+    "issuedBy": "1193247877464592567",
+    "date": "2025-09-01T16:30:13.335Z",
+    "offences": [
+      "speeding 65/55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 400,
+    "ticketNumber": 69783
+  },
+  {
+    "userId": "1408500768494977124",
+    "issuedBy": "931891943644991498",
+    "date": "2025-09-01T16:40:54.303Z",
+    "offences": [
+      "speeding"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500,
+    "ticketNumber": 993960,
+    "paidOff": true
+  },
+  {
+    "userId": "958041872796901436",
+    "issuedBy": "763076303862628353",
+    "date": "2025-09-01T16:41:17.025Z",
+    "offences": [
+      "Reckless driving",
+      "Improper use of a motor vehicle"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1000,
+    "ticketNumber": 675208,
+    "paidOff": true
+  },
+  {
+    "userId": "1157045346766172170",
+    "issuedBy": "763076303862628353",
+    "date": "2025-09-01T16:47:09.765Z",
+    "offences": [
+      "Reckless driving drifting all over the road"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 700,
+    "ticketNumber": 651833
+  },
+  {
+    "userId": "958041872796901436",
+    "issuedBy": "1223678968096358533",
+    "date": "2025-09-02T15:28:46.078Z",
+    "offences": [
+      "frp speeds"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1000,
+    "ticketNumber": 594751,
+    "paidOff": true
+  },
+  {
+    "userId": "485876633639714816",
+    "issuedBy": "1223678968096358533",
+    "date": "2025-09-02T15:34:51.444Z",
+    "offences": [
+      "reckless driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500,
+    "ticketNumber": 899306,
+    "paidOff": true
+  },
+  {
+    "userId": "1288599930100908136",
+    "issuedBy": "811187997432610837",
+    "date": "2025-09-02T15:38:28.044Z",
+    "offences": [
+      "FRP Speeds"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1500,
+    "ticketNumber": 774540
+  },
+  {
+    "userId": "958041872796901436",
+    "issuedBy": "763076303862628353",
+    "date": "2025-09-02T15:40:41.101Z",
+    "offences": [
+      "Reckless driving(drifting)"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 700,
+    "ticketNumber": 839993,
+    "paidOff": true
+  },
+  {
+    "userId": "1201543290068144219",
+    "issuedBy": "763076303862628353",
+    "date": "2025-09-02T15:47:51.722Z",
+    "offences": [
+      "Normal speeding 44 in a 35"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 250,
+    "ticketNumber": 392385,
+    "paidOff": true
+  },
+  {
+    "userId": "485876633639714816",
+    "issuedBy": "931891943644991498",
+    "date": "2025-09-02T17:35:28.151Z",
+    "offences": [
+      "reckless driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500,
+    "ticketNumber": 996321,
+    "paidOff": true
+  },
+  {
+    "userId": "958041872796901436",
+    "issuedBy": "1048308879106265219",
+    "date": "2025-09-04T06:31:39.764Z",
+    "offences": [
+      "Going 75 In a 55",
+      "Driving Recklessly"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1000,
+    "ticketNumber": 455818
+  },
+  {
+    "userId": "485876633639714816",
+    "issuedBy": "931891943644991498",
+    "date": "2025-09-04T17:18:58.428Z",
+    "offences": [
+      "reckless driving crashed into another person charges pressed"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "No",
+    "fine": 1000,
+    "ticketNumber": 451506,
+    "paidOff": true
+  },
+  {
+    "userId": "985519447198535730",
+    "issuedBy": "1259892287626809346",
+    "date": "2025-09-04T17:27:20.574Z",
+    "offences": [],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1250,
+    "ticketNumber": 450361
+  },
+  {
+    "userId": "985519447198535730",
+    "issuedBy": "1259892287626809346",
+    "date": "2025-09-04T17:28:11.261Z",
+    "offences": [
+      "Going over FRP limit",
+      "110MPH in 55",
+      "We´re escaping"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1250,
+    "ticketNumber": 702575,
+    "paidOff": true
+  },
+  {
+    "userId": "1011253889120600084",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-09-04T18:13:21.206Z",
+    "offences": [
+      "reckless driving",
+      "drifting"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1000,
+    "ticketNumber": 492329,
+    "paidOff": true
+  },
+  {
+    "userId": "1064544209706692658",
+    "issuedBy": "1223678968096358533",
+    "date": "2025-09-05T15:34:11.517Z",
+    "offences": [
+      "driving into barriers"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1000,
+    "ticketNumber": 895733
+  },
+  {
+    "userId": "1203755300885102714",
+    "issuedBy": "1223678968096358533",
+    "date": "2025-09-05T15:35:48.931Z",
+    "offences": [
+      "crashing into barriers"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1500,
+    "ticketNumber": 987198
+  },
+  {
+    "userId": "1223678968096358533",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-05T17:09:54.538Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 400,
+    "ticketNumber": 441794,
+    "paidOff": true
+  },
+  {
+    "userId": "899377868348456960",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-05T17:11:50.948Z",
+    "offences": [
+      "Reckless driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 700,
+    "ticketNumber": 30169
+  },
+  {
+    "userId": "1049997124504408074",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-09-05T17:12:12.641Z",
+    "offences": [
+      "Plate violation (no front plate)",
+      "Speeding 14+"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1000,
+    "ticketNumber": 224016
+  },
+  {
+    "userId": "985981726801133609",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-09-05T17:13:08.642Z",
+    "offences": [
+      "FRP speed (95 MPH) in a 55 MPH road"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1150,
+    "ticketNumber": 522353
+  },
+  {
+    "userId": "1390362763171201216",
+    "issuedBy": "1259892287626809346",
+    "date": "2025-09-05T17:14:28.653Z",
+    "offences": [
+      "Driving 70MPH in 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 450,
+    "ticketNumber": 337605,
+    "paidOff": true
+  },
+  {
+    "userId": "985981726801133609",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-05T17:17:37.627Z",
+    "offences": [
+      "DUC"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 750,
+    "ticketNumber": 925116
+  },
+  {
+    "userId": "1161082721121087610",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-09-05T17:20:56.054Z",
+    "offences": [
+      "DUC (vehicle not in database)",
+      "Plate violation (verbal)"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 750,
+    "ticketNumber": 715685
+  },
+  {
+    "userId": "1049997124504408074",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-09-05T17:21:21.067Z",
+    "offences": [
+      "20 MPH over the speed limit",
+      "no license plate in front"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1000,
+    "ticketNumber": 576421
+  },
+  {
+    "userId": "1380850260833992796",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-05T17:25:44.437Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 650,
+    "ticketNumber": 691797,
+    "paidOff": true
+  },
+  {
+    "userId": "1264706789014900840",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-09-05T17:40:56.260Z",
+    "offences": [
+      "no license plate in front"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 650,
+    "ticketNumber": 746153
+  },
+  {
+    "userId": "399934710072999937",
+    "issuedBy": "1335328729961988236",
+    "date": "2025-09-05T17:55:06.779Z",
+    "offences": [
+      "Felony Speeding",
+      "Reckless Driving"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1350,
+    "ticketNumber": 487744
+  },
+  {
+    "userId": "763076303862628353",
+    "issuedBy": "1335328729961988236",
+    "date": "2025-09-05T17:55:57.510Z",
+    "offences": [
+      "entering a vehicle without permisson"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "No",
+    "fine": 500,
+    "ticketNumber": 740672,
+    "paidOff": true
+  },
+  {
+    "userId": "1223678968096358533",
+    "issuedBy": "1335328729961988236",
+    "date": "2025-09-05T17:56:57.382Z",
+    "offences": [
+      "Stealing"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "No",
+    "fine": 300,
+    "ticketNumber": 54506
+  },
+  {
+    "userId": "922510822981390436",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-05T17:59:05.311Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 400,
+    "ticketNumber": 778193,
+    "paidOff": true
+  },
+  {
+    "userId": "1164853388790480896",
+    "issuedBy": "880870969131012198",
+    "date": "2025-09-05T18:25:48.488Z",
+    "offences": [
+      "FRP Speeds",
+      "Reckless Driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1350,
+    "ticketNumber": 255368
+  },
+  {
+    "userId": "399934710072999937",
+    "issuedBy": "1335328729961988236",
+    "date": "2025-09-05T18:29:00.520Z",
+    "offences": [
+      "Reckless Driving",
+      "Speeding"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1000,
+    "ticketNumber": 48745
+  },
+  {
+    "userId": "1259892287626809346",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-09-05T18:33:59.671Z",
+    "offences": [
+      "81 MPH in a 55 MPH road"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 650,
+    "ticketNumber": 229320
+  },
+  {
+    "userId": "1264706789014900840",
+    "issuedBy": "931891943644991498",
+    "date": "2025-09-05T18:38:21.963Z",
+    "offences": [
+      "speeding"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500,
+    "ticketNumber": 890657
+  },
+  {
+    "userId": "1410371976702459914",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-05T19:55:13.810Z",
+    "offences": [
+      "TEST"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1,
+    "ticketNumber": 173343,
+    "paidOff": true
+  },
+  {
+    "userId": "1079382863977382026",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-06T12:20:07.159Z",
+    "offences": [
+      "DUC"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 750,
+    "ticketNumber": 38846
+  },
+  {
+    "userId": "1011253889120600084",
+    "issuedBy": "1258869432189714534",
+    "date": "2025-09-06T12:27:05.262Z",
+    "offences": [
+      "reckless driving 700",
+      "illegal parking 150",
+      "illegal tuning 1000"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1850,
+    "ticketNumber": 490982,
+    "paidOff": true
+  },
+  {
+    "userId": "1079382863977382026",
+    "issuedBy": "763076303862628353",
+    "date": "2025-09-06T12:31:27.713Z",
+    "offences": [
+      "FRP speeds 83 in a 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1150,
+    "ticketNumber": 698398
+  },
+  {
+    "userId": "1159517737853407232",
+    "issuedBy": "763076303862628353",
+    "date": "2025-09-06T12:35:49.169Z",
+    "offences": [
+      "Frp speeding 74 in a 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1150,
+    "ticketNumber": 649106,
+    "paidOff": true
+  },
+  {
+    "userId": "1048308879106265219",
+    "issuedBy": "931891943644991498",
+    "date": "2025-09-06T12:39:52.606Z",
+    "offences": [
+      "speeding and overtaking"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500,
+    "ticketNumber": 728139,
+    "paidOff": true
+  },
+  {
+    "userId": "811187997432610837",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-06T12:41:06.392Z",
+    "offences": [
+      "Reckless driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 700,
+    "ticketNumber": 149461
+  },
+  {
+    "userId": "1159517737853407232",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-09-06T12:47:40.441Z",
+    "offences": [
+      "Frp speeding",
+      "Failure to Id (warrant)"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1250,
+    "ticketNumber": 731779,
+    "paidOff": true
+  },
+  {
+    "userId": "1380850260833992796",
+    "issuedBy": "931891943644991498",
+    "date": "2025-09-06T12:54:24.905Z",
+    "offences": [
+      "speeding reckless driving and crash"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1500,
+    "ticketNumber": 418687
+  },
+  {
+    "userId": "718085640545108009",
+    "issuedBy": "931891943644991498",
+    "date": "2025-09-06T13:11:44.034Z",
+    "offences": [
+      "speeding"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 500,
+    "ticketNumber": 191370
+  },
+  {
+    "userId": "1048308879106265219",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-06T13:12:45.289Z",
+    "offences": [
+      "DUC",
+      "FRP",
+      "Danger",
+      "Reckless driving"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 2550,
+    "ticketNumber": 880359,
+    "paidOff": true
+  },
+  {
+    "userId": "1295771781059055677",
+    "issuedBy": "763076303862628353",
+    "date": "2025-09-06T13:31:37.614Z",
+    "offences": [
+      "Frp speeding 74 in a 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1150,
+    "ticketNumber": 619700
+  },
+  {
+    "userId": "1316083866276069397",
+    "issuedBy": "763076303862628353",
+    "date": "2025-09-06T14:07:55.453Z",
+    "offences": [
+      "Normal speeding 64 in a 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 250,
+    "ticketNumber": 642613,
+    "paidOff": true
+  },
+  {
+    "userId": "1159517737853407232",
+    "issuedBy": "763076303862628353",
+    "date": "2025-09-06T14:20:31.468Z",
+    "offences": [
+      "Frp speeding 143 in a 55",
+      "Reckless driving",
+      "Improper use of a motor vehicle",
+      "Improper Registration"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 2750,
+    "ticketNumber": 11960,
+    "paidOff": true
+  },
+  {
+    "userId": "905554192662409227",
+    "issuedBy": "763076303862628353",
+    "date": "2025-09-06T20:03:18.927Z",
+    "offences": [
+      "Moderate speeding 73 in a 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 650,
+    "ticketNumber": 653890,
+    "paidOff": true
+  },
+  {
+    "userId": "1408500768494977124",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-06T20:15:03.976Z",
+    "offences": [
+      "FRP",
+      "Danger",
+      "Reckless driving",
+      "Hit and run",
+      "Evading police, Improper lane change, Vehicular assault, Improper use of a motor vehicle, Careless driving, Driving of the wrong side of the road, Failure to yield, Improper lane change, Improper passing"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 8600,
+    "ticketNumber": 403072,
+    "paidOff": true
+  },
+  {
+    "userId": "1168256907874668635",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-09-06T20:23:52.492Z",
+    "offences": [
+      "DUC"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 750,
+    "ticketNumber": 425227,
+    "paidOff": true
+  },
+  {
+    "userId": "485876633639714816",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-06T20:28:52.520Z",
+    "offences": [
+      "Improper registration"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 600,
+    "ticketNumber": 488174
+  },
+  {
+    "userId": "1264706789014900840",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-06T20:34:01.483Z",
+    "offences": [
+      "Improper registration",
+      "FRP",
+      "DWL"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "No",
+    "fine": 1750,
+    "ticketNumber": 750783
+  },
+  {
+    "userId": "991635651432820807",
+    "issuedBy": "763076303862628353",
+    "date": "2025-09-06T20:35:11.121Z",
+    "offences": [
+      "Moderate speeding 69 in a 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 400,
+    "ticketNumber": 792114,
+    "paidOff": true
+  },
+  {
+    "userId": "1403350642767958160",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-06T20:43:54.712Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1150,
+    "ticketNumber": 228410
+  },
+  {
+    "userId": "1403350642767958160",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-06T20:44:48.800Z",
+    "offences": [
+      "Reckless driving",
+      "FRP"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 1850,
+    "ticketNumber": 345851
+  },
+  {
+    "userId": "926998928723963924",
+    "issuedBy": "931891943644991498",
+    "date": "2025-09-06T20:54:36.385Z",
+    "offences": [
+      "reckless driving and crash"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 5000,
+    "ticketNumber": 547332
+  },
+  {
+    "userId": "763076303862628353",
+    "issuedBy": "931891943644991498",
+    "date": "2025-09-06T21:00:10.935Z",
+    "offences": [
+      "drifiting"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 250,
+    "ticketNumber": 503755
+  },
+  {
+    "userId": "948530534315872278",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-07T09:24:43.387Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 650,
+    "ticketNumber": 413160
+  },
+  {
+    "userId": "1193181462883741818",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-07T09:33:21.968Z",
+    "offences": [
+      "DUC",
+      "Lights off"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 900,
+    "ticketNumber": 787775
+  },
+  {
+    "userId": "1335328729961988236",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-07T09:39:45.154Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 250,
+    "ticketNumber": 962716,
+    "paidOff": true
+  },
+  {
+    "userId": "1353862230705311976",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-07T09:47:58.680Z",
+    "offences": [
+      "FRP",
+      "Danger",
+      "Reckless driving"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 2350,
+    "ticketNumber": 433869
+  },
+  {
+    "userId": "1193181462883741818",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-07T09:50:34.268Z",
+    "offences": [
+      "FRP",
+      "Danger",
+      "Reckless driving",
+      "Hit and run",
+      "Evading police"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 4200,
+    "ticketNumber": 60620
+  },
+  {
+    "userId": "399934710072999937",
+    "issuedBy": "1187103953037574155",
+    "date": "2025-09-07T11:11:03.633Z",
+    "offences": [
+      "no front lic plate"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 650,
+    "ticketNumber": 314223,
+    "paidOff": true
+  },
+  {
+    "userId": "1240700693539717151",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-07T11:13:50.765Z",
+    "offences": [
+      "DUC",
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1150,
+    "ticketNumber": 532435
+  },
+  {
+    "userId": "1335328729961988236",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-07T11:21:37.316Z",
+    "offences": [
+      "FRP",
+      "Reckless driving",
+      "Danger"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 1600,
+    "ticketNumber": 645594,
+    "paidOff": true
+  },
+  {
+    "userId": "1230163990231912448",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-07T11:57:43.204Z",
+    "offences": [
+      "FRP"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 250,
+    "ticketNumber": 636267
+  },
+  {
+    "userId": "1335328729961988236",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-07T12:06:33.982Z",
+    "offences": [
+      "FRP",
+      "Danger",
+      "Reckless driving",
+      "Evading police"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 3650,
+    "ticketNumber": 329937
+  },
+  {
+    "userId": "1241750199924166657",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-07T12:06:56.009Z",
+    "offences": [
+      "Hit and run"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 550,
+    "ticketNumber": 726199
+  },
+  {
+    "userId": "1241750199924166657",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-07T12:07:47.901Z",
+    "offences": [
+      "DUC"
+    ],
+    "arrested": "Yes",
+    "licenseSuspension": "Yes",
+    "fine": 750,
+    "ticketNumber": 936069
+  },
+  {
+    "userId": "991635651432820807",
+    "issuedBy": "763076303862628353",
+    "date": "2025-09-07T12:08:11.397Z",
+    "offences": [
+      "Speeding 70 in a 55"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 650,
+    "ticketNumber": 49857
+  },
+  {
+    "userId": "1335328729961988236",
+    "issuedBy": "1171529031976488981",
+    "date": "2025-09-07T12:14:54.617Z",
+    "offences": [
+      "Inconsidarated driving",
+      "Plate violation",
+      "improper use of a motor vehicle"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "No",
+    "fine": 1350,
+    "ticketNumber": 986223
+  },
+  {
+    "userId": "1213943080709922816",
+    "issuedBy": "1278491994347405383",
+    "date": "2025-09-07T12:17:01.834Z",
+    "offences": [
+      "Reckless driving"
+    ],
+    "arrested": "No",
+    "licenseSuspension": "Yes",
+    "fine": 700,
+    "ticketNumber": 33067,
+    "paidOff": true
+  }
+]

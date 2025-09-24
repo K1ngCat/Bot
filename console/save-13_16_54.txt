@@ -1,0 +1,120 @@
+v24.6.0
+:/home/container$ if [[ -d .git ]] && [[ ${AUTO_UPDATE} == "1" ]]; then git pull; fi; if [[ ! -z ${NODE_PACKAGES} ]]; then /usr/local/bin/npm install ${NODE_PACKAGES}; fi; if [[ ! -z ${UNNODE_PACKAGES} ]]; then /usr/local/bin/npm uninstall ${UNNODE_PACKAGES}; fi; if [ -f /home/container/package.json ]; then /usr/local/bin/npm install; fi; /usr/local/bin/node /home/container/${JS_FILE}
+\|/-\
+up to date, audited 27 packages in 1s
+\
+\8 packages are looking for funding
+\  run `npm fund` for details
+\
+found 0 vulnerabilities
+\\|/-
+up to date, audited 27 packages in 979ms
+-
+-8 packages are looking for funding
+-  run `npm fund` for details
+-
+found 0 vulnerabilities
+-[dotenv@17.2.1] injecting env (3) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+🔍 TOKEN loaded from .env: Length: 72
+✅ Loaded command: character-create from /home/container/commands/character-create.js
+✅ Loaded command: character-delete from /home/container/commands/character-delete.js
+✅ Loaded command: checkcharacter from /home/container/commands/checkcharacter.js
+✅ Loaded command: checkrecord from /home/container/commands/checkrecord.js
+✅ Loaded command: checkregistration from /home/container/commands/checkregistration.js
+✅ Loaded command: Save Car from /home/container/commands/context/savecar.js
+✅ Loaded command: deleteregistration from /home/container/commands/deleteregistration.js
+✅ Loaded command: economy-add-money from /home/container/commands/economy-add-money.js
+✅ Loaded command: economy-bal from /home/container/commands/economy-bal.js
+✅ Loaded command: economy-blackjack from /home/container/commands/economy-blackjack.js
+✅ Loaded command: economy-buy from /home/container/commands/economy-buy.js
+✅ Loaded command: economy-collect from /home/container/commands/economy-collect.js
+✅ Loaded command: economy-daily from /home/container/commands/economy-daily.js
+✅ Loaded command: economy-leaderboard from /home/container/commands/economy-leaderboard.js
+✅ Loaded command: economy-pay from /home/container/commands/economy-pay.js
+✅ Loaded command: economy-poker from /home/container/commands/economy-poker.js
+✅ Loaded command: economy-rob from /home/container/commands/economy-rob.js
+✅ Loaded command: economy-roulette from /home/container/commands/economy-roulette.js
+✅ Loaded command: economy-slots from /home/container/commands/economy-slots.js
+✅ Loaded command: economy-work from /home/container/commands/economy-work.js
+✅ Loaded command: givelicense from /home/container/commands/givelicense.js
+✅ Loaded command: gvhrp-help from /home/container/commands/gvhrp-help.js
+✅ Loaded command: ocso-ticket from /home/container/commands/ocso-ticket.js
+✅ Loaded command: registercar from /home/container/commands/registercar.js
+✅ Loaded command: removelicense from /home/container/commands/removelicense.js
+✅ Loaded command: sessionend from /home/container/commands/sessionend.js
+✅ Loaded command: sessionping from /home/container/commands/sessionping.js
+✅ Loaded command: sessionstart from /home/container/commands/sessionstart.js
+✅ Loaded command: ticket-payoff from /home/container/commands/ticket-payoff.js
+✅ Loaded command: unwanted from /home/container/commands/unwanted.js
+✅ Loaded command: update-registration from /home/container/commands/update-registration.js
+✅ Loaded command: wanted from /home/container/commands/wanted.js
+✅ Loaded command: wiperecord from /home/container/commands/wiperecord.js
+✅ Loaded command: wsp-ticket from /home/container/commands/wsp-ticket.js
+📦 Loaded 533 registrations
+🔑 Login request sent to Discord...
+✅ Logged in as Car Registration#1036
+(node:37) DeprecationWarning: The ready event has been renamed to clientReady to distinguish it from the gateway READY event and will only emit under that name in v15. Please use clientReady instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:37) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+[Pterodactyl Daemon]: Checking server disk space usage, this could take a few seconds...
+[Pterodactyl Daemon]: Updating process configuration files...
+[Pterodactyl Daemon]: Ensuring file permissions are set correctly, this could take a few seconds...
+[Pterodactyl Daemon]: Pulling Docker container image, this could take a few minutes to complete...
+[Pterodactyl Daemon]: Finished pulling Docker container image
+v24.6.0
+:/home/container$ if [[ -d .git ]] && [[ ${AUTO_UPDATE} == "1" ]]; then git pull; fi; if [[ ! -z ${NODE_PACKAGES} ]]; then /usr/local/bin/npm install ${NODE_PACKAGES}; fi; if [[ ! -z ${UNNODE_PACKAGES} ]]; then /usr/local/bin/npm uninstall ${UNNODE_PACKAGES}; fi; if [ -f /home/container/package.json ]; then /usr/local/bin/npm install; fi; /usr/local/bin/node /home/container/${JS_FILE}
+\|/-\
+up to date, audited 27 packages in 1s
+\
+\8 packages are looking for funding
+\  run `npm fund` for details
+\
+found 0 vulnerabilities
+\\|/
+up to date, audited 27 packages in 920ms
+/
+/8 packages are looking for funding
+/  run `npm fund` for details
+/
+found 0 vulnerabilities
+-[dotenv@17.2.1] injecting env (3) from .env -- tip: 📡 version env with Radar: https://dotenvx.com/radar
+🔍 TOKEN loaded from .env: Length: 72
+✅ Loaded command: character-create from /home/container/commands/character-create.js
+✅ Loaded command: character-delete from /home/container/commands/character-delete.js
+✅ Loaded command: checkcharacter from /home/container/commands/checkcharacter.js
+✅ Loaded command: checkrecord from /home/container/commands/checkrecord.js
+✅ Loaded command: checkregistration from /home/container/commands/checkregistration.js
+✅ Loaded command: Save Car from /home/container/commands/context/savecar.js
+✅ Loaded command: deleteregistration from /home/container/commands/deleteregistration.js
+✅ Loaded command: economy-add-money from /home/container/commands/economy-add-money.js
+✅ Loaded command: economy-bal from /home/container/commands/economy-bal.js
+✅ Loaded command: economy-blackjack from /home/container/commands/economy-blackjack.js
+✅ Loaded command: economy-buy from /home/container/commands/economy-buy.js
+✅ Loaded command: economy-collect from /home/container/commands/economy-collect.js
+✅ Loaded command: economy-daily from /home/container/commands/economy-daily.js
+✅ Loaded command: economy-leaderboard from /home/container/commands/economy-leaderboard.js
+✅ Loaded command: economy-pay from /home/container/commands/economy-pay.js
+✅ Loaded command: economy-poker from /home/container/commands/economy-poker.js
+✅ Loaded command: economy-rob from /home/container/commands/economy-rob.js
+✅ Loaded command: economy-roulette from /home/container/commands/economy-roulette.js
+✅ Loaded command: economy-slots from /home/container/commands/economy-slots.js
+✅ Loaded command: economy-work from /home/container/commands/economy-work.js
+✅ Loaded command: givelicense from /home/container/commands/givelicense.js
+✅ Loaded command: gvhrp-help from /home/container/commands/gvhrp-help.js
+✅ Loaded command: ocso-ticket from /home/container/commands/ocso-ticket.js
+✅ Loaded command: registercar from /home/container/commands/registercar.js
+✅ Loaded command: removelicense from /home/container/commands/removelicense.js
+✅ Loaded command: sessionend from /home/container/commands/sessionend.js
+✅ Loaded command: sessionping from /home/container/commands/sessionping.js
+✅ Loaded command: sessionstart from /home/container/commands/sessionstart.js
+✅ Loaded command: ticket-payoff from /home/container/commands/ticket-payoff.js
+✅ Loaded command: unwanted from /home/container/commands/unwanted.js
+✅ Loaded command: update-registration from /home/container/commands/update-registration.js
+✅ Loaded command: wanted from /home/container/commands/wanted.js
+✅ Loaded command: wiperecord from /home/container/commands/wiperecord.js
+✅ Loaded command: wsp-ticket from /home/container/commands/wsp-ticket.js
+📦 Loaded 539 registrations
+🔑 Login request sent to Discord...
+✅ Logged in as Car Registration#1036
+(node:37) DeprecationWarning: The ready event has been renamed to clientReady to distinguish it from the gateway READY event and will only emit under that name in v15. Please use clientReady instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
