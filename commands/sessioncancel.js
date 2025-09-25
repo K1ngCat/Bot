@@ -19,7 +19,7 @@ module.exports = {
         }
 
         try {
-            // alle gespeicherten Teilnehmer informieren
+            
             const participants = session.participants || [];
             const failedDMs = [];
 
@@ -34,7 +34,7 @@ module.exports = {
                 }
             }
 
-            // Session aus Speicher löschen
+           
             sessionManager.endSession(interaction.channelId);
 
             await interaction.reply({

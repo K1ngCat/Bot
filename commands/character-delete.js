@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const charactersFile = path.join(__dirname, '..', 'characters.json');
-const STAFF_ROLE_ID = '1373407655456014376'; // Staff-Rollen-ID hier eintragen
+const STAFF_ROLE_ID = '1373407655456014376'; 
 
 function loadCharacters() {
     if (!fs.existsSync(charactersFile)) return {};

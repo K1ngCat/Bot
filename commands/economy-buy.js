@@ -11,19 +11,19 @@ const SHOP_ITEMS = [
     { label: 'BVE 3 Days', value: 'bve3', roleId: '1404415599903244449', duration: 3 * 24 * 60 * 60 * 1000, price: 20000 },
     { label: 'Gambling Mafia', value: 'member', roleId: '1409278757025611918', duration: null, price: 60000 },
     { label: 'Elon Musk', value: 'elon', roleId: '1409594907081052343', duration: null, price: 10000000 },
-    // 🎟️ New item: Golden Ticket
+    
     { label: 'Lottery Ticket', value: 'lottery_ticket', duration: null, price: 1500 }
 ];
 
 module.exports = {
-    // ⚠️ Dieser Teil fehlte, was den Fehler verursachte.
+  
     data: new SlashCommandBuilder()
         .setName('economy-buy')
         .setDescription('Open the shop and buy items'),
-    // -------------------------------------------------------------
+   
     async execute(interaction) {
 
-        // Build shop select menu
+       
         const row = new ActionRowBuilder()
             .addComponents(
                 new StringSelectMenuBuilder()
@@ -48,32 +48,31 @@ module.exports = {
         collector.on('collect', async i => {
             if (i.user.id !== interaction.user.id) return i.reply({ content: "❌ This isn't your shop!", ephemeral: true });
 
-            collector.stop(); // prevent double execution
+            collector.stop(); 
 
             const selected = SHOP_ITEMS.find(x => x.value === i.values[0]);
             if (!selected) return i.reply({ content: '❌ Invalid item.', ephemeral: true });
 
             const member = i.member;
 
-            // Check if already purchased for normal items
+           
             if (getPurchase(member.id, selected.value) && selected.value !== 'lottery_ticket') {
                 return i.reply({ content: `❌ You already bought **${selected.label}**.`, ephemeral: true });
             }
 
-            // Check balance
+           
             const balance = getBalance(member.id);
             if (balance < selected.price) {
                 return i.reply({ content: `❌ You need $${selected.price} to buy this item.`, ephemeral: true });
             }
 
-            // Deduct money
+            
             addMoney(member.id, -selected.price);
 
-            // Handle the lottery ticket purchase
+            
             if (selected.value === 'lottery_ticket') {
                 const entries = getLotteryEntries();
-                if (entries[member.id] && entries[member.id] >= 5) { // Limit to 5 tickets per user
-                    // Refund the money and return
+                if (entries[member.id] && entries[member.id] >= 5) { 
                     addMoney(member.id, selected.price);
                     return i.reply({ content: '❌ You have reached the maximum of 5 lottery tickets.', ephemeral: true });
                 }
@@ -101,13 +100,13 @@ module.exports = {
                 
                 return await interaction.channel.send({ embeds: [shopEmbed] });
 
-            } else { // All other items
-                // Add role
+            } else { 
+               
                 const role = member.guild.roles.cache.get(selected.roleId);
                 if (!role) return i.reply({ content: '❌ Role not found.', ephemeral: true });
                 await member.roles.add(role);
 
-                // Handle temporary purchase
+               
                 if (selected.duration) {
                     addPurchase(member.id, selected.value, Date.now() + selected.duration);
                     setTimeout(async () => {
@@ -121,7 +120,7 @@ module.exports = {
                     addPurchase(member.id, selected.value, null);
                 }
                 
-                // DM receipt
+                
                 const now = new Date();
                 const dmEmbed = new EmbedBuilder()
                     .setTitle('🧾 Purchase Receipt')
@@ -137,7 +136,7 @@ module.exports = {
 
                 await interaction.user.send({ embeds: [dmEmbed] });
 
-                // Channel embed
+               
                 const shopEmbed = new EmbedBuilder()
                     .setTitle('🛒 New Purchase!')
                     .setColor('Blue')
