@@ -35,8 +35,8 @@ class EmbedBuilderUtil {
             .setFooter({ text: 'Get ready for an amazing gaming experience!' });
     }
 
-    static getSessionStartEmbed(link, participants) {
-        return new EmbedBuilder()
+    static getSessionStartEmbed(link, participants, location = null) {
+        const embed = new EmbedBuilder()
             .setColor(0x00FF00)
             .setTitle('🚀 Session Started!')
             .setDescription('Check your DMs for the join link!')
@@ -46,6 +46,12 @@ class EmbedBuilderUtil {
             )
             .setTimestamp()
             .setFooter({ text: 'Have fun gaming!' });
+
+        if (location) {
+            embed.addFields({ name: '📍 Location', value: location, inline: true });
+        }
+
+        return embed;
     }
 
     static getReinvitesEmbed() {
