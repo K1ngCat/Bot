@@ -15,6 +15,7 @@ const roleRewards = {
     "1373407655456014376": { amount: 150, name: "Staff Suport" },
     "1407030051249328250": { amount: 100, name: "Member" },
     "1409278757025611918": { amount: 120, name: "Gambling Mafia" },
+    "1403091358419259433": { amount: 400, name: "Server Booster"}
    
 };
 
