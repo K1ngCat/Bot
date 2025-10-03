@@ -1,8 +1,9 @@
-const { SlashCommandBuilder } = require('discord.js');
+const { SlashCommandBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 const EmbedBuilderUtil = require('../utils/embedBuilder');
 const SessionManager = require('../utils/sessionManager');
 
 const sessionManager = new SessionManager();
+const STAFF_CHANNEL_ID = "1403853409483755635";
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -11,20 +12,9 @@ module.exports = {
         .addStringOption(option =>
             option.setName('link')
                 .setDescription('The session link to send to participants')
-                .setRequired(true))
-        .addStringOption(option =>
-            option.setName('location')
-                .setDescription('The location of the session')
-                .setRequired(false))
-        .addIntegerOption(option =>
-            option.setName('minreactions')
-                .setDescription('Minimum number of ✅ reactions required to start the session')
-                .setRequired(false)),
+                .setRequired(true)),
     async execute(interaction) {
         const link = interaction.options.getString('link');
-        const location = interaction.options.getString('location') || null;
-        const minReactions = interaction.options.getInteger('minreactions') || 0;
-
         const session = sessionManager.getSession(interaction.channelId);
         
         if (!session) {
@@ -35,25 +25,19 @@ module.exports = {
         }
         
         sessionManager.setSessionLink(interaction.channelId, link);
-        
+
         try {
             const pingMessage = await interaction.channel.messages.fetch(session.messageId);
             const reaction = pingMessage.reactions.cache.get('✅');
             const users = await reaction.users.fetch();
 
-            // Check if enough reactions
-            const validUsers = users.filter(u => !u.bot);
-            if (validUsers.size < minReactions) {
-                return await interaction.reply({ 
-                    content: `Not enough participants reacted! (${validUsers.size}/${minReactions} required)`, 
-                    ephemeral: true 
-                });
-            }
-
             const participants = [];
             const failedDMs = [];
+
             
-            for (const [userId, user] of validUsers) {
+            for (const [userId, user] of users) {
+                if (user.bot) continue;
+
                 try {
                     const dmEmbed = EmbedBuilderUtil.getDMEmbed(link);
                     await user.send({ embeds: [dmEmbed] });
@@ -64,20 +48,74 @@ module.exports = {
                     console.error(`Failed to DM user ${user.tag}:`, dmError);
                 }
             }
+
             
-            const summaryEmbed = EmbedBuilderUtil.getSessionStartEmbed(link, participants, location);
-            
-            let summaryText = 'Session started! ';
+            const summaryEmbed = EmbedBuilderUtil.getSessionStartEmbed(link, participants);
+            let summaryText = `🚀 Session started! Everyone who reacted has been DM'd the link.`;
             if (failedDMs.length > 0) {
-                summaryText += `Failed to DM: ${failedDMs.join(', ')}. `;
+                summaryText += `\n⚠️ Failed to DM: ${failedDMs.join(', ')}`;
             }
-            summaryText += 'Reinvites will be available in a few minutes.';
+
             
-            await interaction.reply({ 
+            const row = new ActionRowBuilder().addComponents(
+                new ButtonBuilder()
+                    .setCustomId('get_link')
+                    .setLabel('Get Link')
+                    .setStyle(ButtonStyle.Primary)
+            );
+
+            const sessionMessage = await interaction.reply({ 
                 content: summaryText,
-                embeds: [summaryEmbed] 
+                embeds: [summaryEmbed],
+                components: [row]
             });
+
+           
+            const staffChannel = await interaction.client.channels.fetch(STAFF_CHANNEL_ID);
+            await staffChannel.send({
+                content: `✅ Session started in <#${interaction.channelId}>\nParticipants who got the link:\n${participants.length > 0 ? participants.join(', ') : "No participants"}`
+            });
+
+           
+            const collector = sessionMessage.createMessageComponentCollector({
+                filter: i => i.customId === 'get_link',
+                time: 30000
+            });
+
+            const lateJoiners = [];
+
+            collector.on('collect', async i => {
+                try {
+                    const dmEmbed = EmbedBuilderUtil.getDMEmbed(link, true);
+                    await i.user.send({ embeds: [dmEmbed] });
+                    lateJoiners.push(i.user.toString());
+                    await i.reply({ content: "✅ I've sent you the link in your DMs!", ephemeral: true });
+                } catch (error) {
+                    await i.reply({ content: "❌ Could not DM you. Please check your settings.", ephemeral: true });
+                }
+            });
+
+            collector.on('end', async () => {
             
+                const disabledRow = new ActionRowBuilder().addComponents(
+                    new ButtonBuilder()
+                        .setCustomId('get_link')
+                        .setLabel('Get Link')
+                        .setStyle(ButtonStyle.Primary)
+                        .setDisabled(true)
+                );
+                await sessionMessage.edit({ components: [disabledRow] });
+
+              
+                if (lateJoiners.length > 0) {
+                    await staffChannel.send({
+                        content: `⏰ Late joiners who used the button:\n${lateJoiners.join(', ')}`
+                    });
+                } else {
+                    await staffChannel.send({ content: "⏰ No late joiners used the button." });
+                }
+            });
+
         } catch (error) {
             console.error('Error starting session:', error);
             await interaction.reply({ 

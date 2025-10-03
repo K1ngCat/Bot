@@ -13,7 +13,7 @@ module.exports = {
     ),
 
   async execute(interaction) {
-    const allowedRoles = ['1372308043454349403', '1405164435634524234'];
+    const allowedRoles = ['1403853403834286170', '1421496885754986596'];
 
     if (!allowedRoles.some(roleId => interaction.member.roles.cache.has(roleId))) {
       return interaction.reply({

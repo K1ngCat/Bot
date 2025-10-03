@@ -1,17 +1,16 @@
-const { EmbedBuilder } = require('discord.js');
-const SessionManager = require('./sessionManager');
+// utils/countdownManager.js
+const EmbedBuilderUtil = require('./embedBuilder');
 
 class CountdownManager {
     constructor() {
         this.activeCountdowns = new Map();
-        this.sessionManager = new SessionManager();
     }
 
     formatTime(ms) {
         const seconds = Math.floor(ms / 1000);
         const minutes = Math.floor(seconds / 60);
         const hours = Math.floor(minutes / 60);
-        
+
         return {
             hours: hours % 24,
             minutes: minutes % 60,
@@ -20,34 +19,19 @@ class CountdownManager {
         };
     }
 
-    createCountdownEmbed(timeData, cooldown) {
-        return new EmbedBuilder()
-            .setColor(0x0099FF)
-            .setTitle('🎮 Gaming Session Starting Soon!')
-            .setDescription('React with ✅ to get notified when the session starts!')
-            .addFields(
-                { name: '⏰ Time Remaining', value: `${timeData.hours}h ${timeData.minutes}m ${timeData.seconds}s`, inline: true },
-                { name: '⏱️ Cooldown', value: `${cooldown} minutes`, inline: true },
-                { name: '📅 Start Time', value: new Date(Date.now() + timeData.totalMs).toLocaleString(), inline: true }
-            )
-            .setTimestamp()
-            .setFooter({ text: 'Get ready for an amazing gaming experience!' });
-    }
-
-    async startCountdown(channel, messageId, timeHours, timeMinutes, cooldown) {
+    async startCountdown(channel, messageId, timeHours, timeMinutes, location, minReactions) {
         const totalMs = (timeHours * 60 * 60 * 1000) + (timeMinutes * 60 * 1000);
         const endTime = Date.now() + totalMs;
-        
-        
+
         this.activeCountdowns.set(messageId, {
             channelId: channel.id,
             messageId: messageId,
-            endTime: endTime,
-            cooldown: cooldown,
+            endTime,
+            location,
+            minReactions,
             interval: null
         });
 
-        
         let message;
         try {
             message = await channel.messages.fetch(messageId);
@@ -56,47 +40,54 @@ class CountdownManager {
             return;
         }
 
-       
         const updateCountdown = async () => {
             const now = Date.now();
             const remaining = endTime - now;
-            
+
             if (remaining <= 0) {
-                
                 this.stopCountdown(messageId);
-                
-                const finishedEmbed = new EmbedBuilder()
+
+                const finishedEmbed = EmbedBuilderUtil.getSessionPingEmbed(0, 0, location, minReactions);
+                finishedEmbed
                     .setColor(0xFF0000)
                     .setTitle('⏰ Session Starting NOW!')
-                    .setDescription('The session is starting! Use `/sessionstart` to begin!')
-                    .setTimestamp()
-                    .setFooter({ text: 'Session is ready to start!' });
-                
+                    .setDescription('The session is starting! Use `/sessionstart` to begin!');
+
                 try {
                     await message.edit({ embeds: [finishedEmbed] });
                 } catch (error) {
-                    console.error('Error updating finished countdown:', error);
+                    if (error.code === 10008) {
+                        console.warn(`Countdown message ${messageId} was deleted.`);
+                    } else {
+                        console.error('Error updating finished countdown:', error);
+                    }
                 }
-                
+
                 return;
             }
 
             const timeData = this.formatTime(remaining);
-            
             try {
-                const embed = this.createCountdownEmbed(timeData, cooldown);
+                const embed = EmbedBuilderUtil.getSessionPingEmbed(
+                    timeData.hours,
+                    timeData.minutes,
+                    location,
+                    minReactions
+                );
+
                 await message.edit({ embeds: [embed] });
             } catch (error) {
-                console.error('Error updating countdown:', error);
+                if (error.code === 10008) {
+                    console.warn(`Countdown message ${messageId} was deleted.`);
+                } else {
+                    console.error('Error updating countdown:', error);
+                }
                 this.stopCountdown(messageId);
             }
         };
 
-        
         await updateCountdown();
-
-        
-        const interval = setInterval(updateCountdown, 30000);
+        const interval = setInterval(updateCountdown, 30000); // alle 30s updaten
         this.activeCountdowns.get(messageId).interval = interval;
     }
 
@@ -110,14 +101,11 @@ class CountdownManager {
 
     stopAllCountdowns() {
         for (const [messageId, countdown] of this.activeCountdowns) {
-            if (countdown.interval) {
-                clearInterval(countdown.interval);
-            }
+            if (countdown.interval) clearInterval(countdown.interval);
         }
         this.activeCountdowns.clear();
     }
 
-    
     cleanupExpiredCountdowns() {
         const now = Date.now();
         for (const [messageId, countdown] of this.activeCountdowns) {

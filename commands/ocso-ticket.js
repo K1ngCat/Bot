@@ -4,9 +4,9 @@ const path = require('path');
 
 const ticketsFile = path.join(__dirname, '..', 'tickets.json');
 
-const TICKET_ROLE_1 = '1402654203268038817';
-const TICKET_ROLE_2 = '1402654271480139876';
-const TICKET_ROLE_3 = '1402654308998054030';
+const TICKET_ROLE_1 = '1403853403741880500';
+const TICKET_ROLE_2 = '1403853403741880499';
+const TICKET_ROLE_3 = '1403853403741880498';
 
 function loadTickets() {
     if (!fs.existsSync(ticketsFile)) return [];
@@ -58,7 +58,7 @@ module.exports = {
         const ticketNumber = Math.floor(Math.random() * 1000000);
 
         if (licenseSuspension === 'Yes') {
-            const suspensionRoleId = '1404924040606515210';
+            const suspensionRoleId = '1421487020894847006';
             try { await member.roles.add(suspensionRoleId); } catch (e) { console.log('Failed to add license suspension role:', e); }
         }
 

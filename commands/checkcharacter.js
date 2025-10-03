@@ -7,8 +7,8 @@ const ticketsFile = path.join(__dirname, '..', 'tickets.json');
 const wantedFile = path.join(__dirname, '..', 'wantedData.json');
 
 
-const suspendedRoleId = '1404924040606515210';        
-const drivingLicenseRoleId = '1402712765604560947';   
+const suspendedRoleId = '1421487020894847006';        
+const drivingLicenseRoleId = '1403853403741880495';   
 
 function loadCharacters() {
     if (!fs.existsSync(charactersFile)) return {};

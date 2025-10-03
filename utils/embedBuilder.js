@@ -13,45 +13,55 @@ class EmbedBuilderUtil {
         });
     }
 
-    static getSessionPingEmbed(timeHours, timeMinutes, cooldown) {
+    static getSessionPingEmbed(timeHours, timeMinutes, location) {
         const now = new Date();
         const startTime = new Date(now.getTime() + (timeHours * 60 * 60 * 1000) + (timeMinutes * 60 * 1000));
-        
+
         return new EmbedBuilder()
             .setColor(0x0099FF)
             .setTitle('🎮 Gaming Session Starting Soon!')
             .setDescription('React with ✅ to get notified when the session starts!')
             .addFields(
                 { name: '⏰ Start Time', value: this.formatDate(startTime), inline: true },
-                { name: '⏱️ Cooldown', value: `${cooldown} minutes`, inline: true },
-                { name: '📅 Date', value: startTime.toLocaleDateString('en-US', { 
-                    weekday: 'long', 
-                    year: 'numeric', 
-                    month: 'long', 
-                    day: 'numeric' 
-                }), inline: true }
+                { name: '📍 Location', value: location || 'Not specified', inline: true },
+                { 
+                    name: '📅 Date', 
+                    value: startTime.toLocaleDateString('en-US', { 
+                        weekday: 'long', 
+                        year: 'numeric', 
+                        month: 'long', 
+                        day: 'numeric' 
+                    }), 
+                    inline: true 
+                }
             )
             .setTimestamp()
             .setFooter({ text: 'Get ready for an amazing gaming experience!' });
     }
 
-    static getSessionStartEmbed(link, participants, location = null) {
-        const embed = new EmbedBuilder()
+    static getCountdownEmbed(timeData) {
+        return new EmbedBuilder()
+            .setColor(0x0099FF)
+            .setTitle('🎮 Gaming Session Starting Soon!')
+            .setDescription('React with ✅ to get notified when the session starts!')
+            .addFields(
+                { name: '⏰ Time Remaining', value: `${timeData.hours}h ${timeData.minutes}m ${timeData.seconds}s`, inline: true },
+                { name: '📅 Start Time', value: new Date(Date.now() + timeData.totalMs).toLocaleString(), inline: true }
+            )
+            .setTimestamp()
+            .setFooter({ text: 'Get ready for an amazing gaming experience!' });
+    }
+
+    static getSessionStartEmbed(link, participants) {
+        return new EmbedBuilder()
             .setColor(0x00FF00)
             .setTitle('🚀 Session Started!')
             .setDescription('Check your DMs for the join link!')
             .addFields(
-                { name: '🔗 Join Link', value: link || 'Not provided', inline: true },
                 { name: '👥 Participants', value: participants.length > 0 ? participants.join(', ') : 'No participants yet', inline: false }
             )
             .setTimestamp()
             .setFooter({ text: 'Have fun gaming!' });
-
-        if (location) {
-            embed.addFields({ name: '📍 Location', value: location, inline: true });
-        }
-
-        return embed;
     }
 
     static getReinvitesEmbed() {
@@ -84,6 +94,15 @@ class EmbedBuilderUtil {
             )
             .setTimestamp()
             .setFooter({ text: isReinvite ? 'Enjoy the session!' : 'Have fun gaming!' });
+    }
+
+    static getFinishedEmbed() {
+        return new EmbedBuilder()
+            .setColor(0xFF0000)
+            .setTitle('⏰ Session Starting NOW!')
+            .setDescription('The session is starting! Use `/sessionstart` to begin!')
+            .setTimestamp()
+            .setFooter({ text: 'Session is ready to start!' });
     }
 }
 

@@ -22,18 +22,16 @@ module.exports = {
                 .setRequired(true)
                 .setMinValue(0)
                 .setMaxValue(59))
-        .addIntegerOption(option =>
-            option.setName('cooldown')
-                .setDescription('Cooldown time in minutes')
-                .setRequired(true)
-                .setMinValue(1)
-                .setMaxValue(60)),
+        .addStringOption(option =>
+            option.setName('location')
+                .setDescription('The location of the session')
+                .setRequired(true)),
     async execute(interaction) {
         const timeHours = interaction.options.getInteger('hours');
         const timeMinutes = interaction.options.getInteger('minutes');
-        const cooldown = interaction.options.getInteger('cooldown');
+        const location = interaction.options.getString('location');
 
-        const embed = EmbedBuilderUtil.getSessionPingEmbed(timeHours, timeMinutes, cooldown);
+        const embed = EmbedBuilderUtil.getSessionPingEmbed(timeHours, timeMinutes, location);
 
         try {
             const message = await interaction.reply({ 
@@ -43,22 +41,18 @@ module.exports = {
             
             await message.react('✅');
             
-            
             sessionManager.createSession(
                 interaction.channelId, 
                 message.id, 
                 timeHours, 
-                timeMinutes, 
-                cooldown
+                timeMinutes
             );
-            
             
             countdownManager.startCountdown(
                 interaction.channel,
                 message.id,
                 timeHours,
-                timeMinutes,
-                cooldown
+                timeMinutes
             );
             
         } catch (error) {

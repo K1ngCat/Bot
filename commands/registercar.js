@@ -2,8 +2,8 @@ const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const { saveRegistrations } = require('../utils/registrationStorage');
 const ms = require('ms'); 
 
-const VIP_ROLE_ID = '1409486868214452255';
-const BOOSTER_ROLE_ID = '1403091358419259433';
+const VIP_ROLE_ID = '1421494265808293909';
+const BOOSTER_ROLE_ID = '1403853403771113648';
 const MAX_REGULAR = 5;
 const MAX_VIP = 12;
 const EXPIRY_MS = 1000 * 60 * 60 * 24 * 90; 

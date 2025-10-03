@@ -3,7 +3,7 @@ const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('gvhrp-help')
+        .setName('help')
         .setDescription('Shows a categorized list of all commands'),
     async execute(interaction) {
         const embed = new EmbedBuilder()

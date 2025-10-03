@@ -104,7 +104,7 @@ class SessionManager {
             const sessionTime = new Date(session.startTime);
             const cooldownMs = session.cooldown * 60 * 1000;
             
-            if (now.getTime() > sessionTime.getTime() + cooldownMs + 3600000) { // 1 hour after cooldown
+            if (now.getTime() > sessionTime.getTime() + cooldownMs + 3600000) { 
                 delete sessions[channelId];
             }
         }

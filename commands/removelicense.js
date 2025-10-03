@@ -10,7 +10,7 @@ module.exports = {
         .setRequired(true)
     ),
   async execute(interaction) {
-    const LICENSE_ROLE_ID = '1402712765604560947';
+    const LICENSE_ROLE_ID = '1403853403741880495';
     const target = interaction.options.getUser('target');
     const member = interaction.guild.members.cache.get(target.id);
 

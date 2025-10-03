@@ -6,8 +6,8 @@ const MAX_BET = 500;
 const MAX_WIN = 100000;
 const cooldowns = new Map();
 
-const VIP_ROLES = ["1409481150447091803", "1372089433876070450"];
-const REAL_VIP = "1409486868214452255";
+const VIP_ROLES = ["1403853403834286168","1403853403741880494"];
+const REAL_VIP = "1421494265808293909";
 
 const suitEmojis = {
     "♠": "♠️",

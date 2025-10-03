@@ -5,12 +5,12 @@ const { addLotteryEntry, getLotteryEntries } = require('../lotteryStore');
 
 
 const SHOP_ITEMS = [
-    { label: 'VIP 30 Min', value: 'vip30', roleId: '1409486868214452255', duration: 30 * 60 * 1000, price: 20000 },
-    { label: 'VIP 1 Hour', value: 'vip60', roleId: '1409486868214452255', duration: 60 * 60 * 1000, price: 40010 },
-    { label: 'BVE 1 Day', value: 'bve1', roleId: '1404415599903244449', duration: 24 * 60 * 60 * 1000, price: 8000 },
-    { label: 'BVE 3 Days', value: 'bve3', roleId: '1404415599903244449', duration: 3 * 24 * 60 * 60 * 1000, price: 20000 },
-    { label: 'Gambling Mafia', value: 'member', roleId: '1409278757025611918', duration: null, price: 60000 },
-    { label: 'Elon Musk', value: 'elon', roleId: '1409594907081052343', duration: null, price: 10000000 },
+    { label: 'VIP 30 Min', value: 'vip30', roleId: '1421494265808293909', duration: 30 * 60 * 1000, price: 20000 },
+    { label: 'VIP 1 Hour', value: 'vip60', roleId: '1421494265808293909', duration: 60 * 60 * 1000, price: 40010 },
+    { label: 'BVE 1 Day', value: 'bve1', roleId: '1421496515733618820', duration: 24 * 60 * 60 * 1000, price: 8000 },
+    { label: 'BVE 3 Days', value: 'bve3', roleId: '1421496515733618820', duration: 3 * 24 * 60 * 60 * 1000, price: 20000 },
+    { label: 'Gambling Mafia', value: 'member', roleId: '1403853403771113650', duration: null, price: 60000 },
+    { label: 'Elon Musk', value: 'elon', roleId: '1403853403771113652', duration: null, price: 10000000 },
     
     { label: 'Lottery Ticket', value: 'lottery_ticket', duration: null, price: 1500 }
 ];

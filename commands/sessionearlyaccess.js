@@ -24,7 +24,7 @@ module.exports = {
         }
 
         try {
-            const earlyAccessUsers = session.earlyAccess || []; // deine Logik, wer early access hat
+            const earlyAccessUsers = session.earlyAccess || []; 
             const participants = [];
             const failedDMs = [];
 

@@ -6,8 +6,8 @@ const COOLDOWN = 60 * 1000;
 const MAX_BET = 1000;
 const MAX_WIN = 250000;
 const cooldowns = new Map();
-const VIP_ROLES = ["1409481150447091803", "1372089433876070450"];
-const REAL_VIP = "1409486868214452255"; 
+const VIP_ROLES = ["1403853403834286168","1403853403741880494"];
+const REAL_VIP = "1421494265808293909";
 
 module.exports = {
     data: new SlashCommandBuilder()
